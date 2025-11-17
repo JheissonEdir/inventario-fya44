@@ -53,6 +53,7 @@
         </label>
         <label>Aula Funcional: <input name="aula_funcional" required></label>
         <label>Denominación: <input name="denominacion" required></label>
+        <label>Cantidad: <input name="cantidad" type="number" min="1" value="1" required></label>
         <label>Marca: <input name="marca"></label>
         <label>Modelo: <input name="modelo"></label>
         <label>Tipo:
@@ -97,7 +98,7 @@
     <table id="tabla">
         <thead>
         <tr>
-            <th>Nivel</th><th>Aula</th><th>Denominación</th><th>Marca</th><th>Modelo</th><th>Tipo</th><th>Color</th><th>Serie</th><th>Largo</th><th>Ancho</th><th>Alto</th><th>Doc. Alta</th><th>Fecha Compra</th><th>N° Doc</th><th>Estado</th><th>Procedencia</th><th>Obs.</th><th>Usuario</th><th>Ubicación</th><th>Fecha Registro</th>
+            <th>Nivel</th><th>Aula</th><th>Denominación</th><th>Cantidad</th><th>Marca</th><th>Modelo</th><th>Tipo</th><th>Color</th><th>Serie</th><th>Largo</th><th>Ancho</th><th>Alto</th><th>Doc. Alta</th><th>Fecha Compra</th><th>N° Doc</th><th>Estado</th><th>Procedencia</th><th>Obs.</th><th>Usuario</th><th>Ubicación</th><th>Fecha Registro</th>
         </tr>
         </thead>
         <tbody></tbody>
@@ -117,10 +118,14 @@
         tabla.innerHTML = '';
         inventario.forEach(item => {
             const tr = document.createElement('tr');
-            Object.values(item).forEach((val, i) => {
+            // Orden de columnas actualizado
+            const columnas = [
+                'nivel','aula_funcional','denominacion','cantidad','marca','modelo','tipo','color','serie','largo','ancho','alto','documento_alta','fecha_compra','numero_documento','estado','procedencia','observaciones','usuario_responsable','ubicacion','fecha_registro'
+            ];
+            columnas.forEach((col, i) => {
                 const td = document.createElement('td');
                 td.setAttribute('data-label', tabla.parentElement.rows[0].cells[i].textContent);
-                td.textContent = val;
+                td.textContent = item[col] || '';
                 tr.appendChild(td);
             });
             tabla.appendChild(tr);
@@ -131,12 +136,15 @@
         e.preventDefault();
         const data = Object.fromEntries(new FormData(this));
         // Validación de duplicados (nivel, aula_funcional, denominacion, serie)
-        if (inventario.some(row => row.nivel === data.nivel && row.aula_funcional === data.aula_funcional && row.denominacion === data.denominacion && row.serie === data.serie)) {
-            alert('¡Registro duplicado!');
-            return;
-        }
+        const idx = inventario.findIndex(row => row.nivel === data.nivel && row.aula_funcional === data.aula_funcional && row.denominacion === data.denominacion && row.serie === data.serie);
+        data.cantidad = parseInt(data.cantidad) || 1;
         data.fecha_registro = new Date().toISOString().slice(0,10);
-        inventario.push(data);
+        if (idx !== -1) {
+            // Si ya existe, suma la cantidad
+            inventario[idx].cantidad = parseInt(inventario[idx].cantidad) + data.cantidad;
+        } else {
+            inventario.push(data);
+        }
         renderTabla();
         this.reset();
     };
@@ -146,8 +154,12 @@
             alert('No hay datos para exportar.');
             return;
         }
-        const encabezados = Object.keys(inventario[0]);
-        const filas = inventario.map(obj => encabezados.map(k => '"'+(obj[k]||'')+'"').join(','));
+        // Orden de columnas actualizado
+        const columnas = [
+            'nivel','aula_funcional','denominacion','cantidad','marca','modelo','tipo','color','serie','largo','ancho','alto','documento_alta','fecha_compra','numero_documento','estado','procedencia','observaciones','usuario_responsable','ubicacion','fecha_registro'
+        ];
+        const encabezados = columnas;
+        const filas = inventario.map(obj => columnas.map(k => '"'+(obj[k]||'')+'"').join(','));
         const csv = [encabezados.join(','), ...filas].join('\r\n');
         const blob = new Blob([csv], {type: 'text/csv'});
         const url = URL.createObjectURL(blob);
