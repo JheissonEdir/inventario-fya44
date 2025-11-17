@@ -42,8 +42,45 @@
     </style>
 </head>
 <body>
-    <h2>Inventario del Colegio Fe y Alegría 44</h2>
-    <div class="subtitulo">Inventario 2025</div>
+        <h2>Inventario del Colegio Fe y Alegría 44</h2>
+        <div class="subtitulo">Inventario 2025</div>
+        <button class="btn" style="float:right;margin-top:10px;" onclick="document.getElementById('modalManual').style.display='block'">¿Cómo usar esta página?</button>
+        <div id="modalManual" style="display:none;position:fixed;z-index:1000;left:0;top:0;width:100vw;height:100vh;background:rgba(0,0,0,0.5);">
+            <div style="background:#fff;max-width:500px;margin:60px auto;padding:24px 18px 18px 18px;border-radius:10px;box-shadow:0 4px 24px #0003;position:relative;">
+                <button onclick="document.getElementById('modalManual').style.display='none'" style="position:absolute;top:8px;right:12px;font-size:1.3em;background:none;border:none;color:#b71c1c;cursor:pointer;">&times;</button>
+                <h3 style="color:#b71c1c;text-align:center;">Manual de Uso - Inventario Local</h3>
+                <ul style="font-size:1em;line-height:1.5;margin-bottom:10px;">
+                    <li><b>¿Para qué sirve?</b> Permite registrar y exportar el inventario de aulas de forma local, sin internet ni base de datos.</li>
+                    <li><b>¿Cómo usar?</b>
+                        <ol>
+                            <li>Selecciona el nivel educativo y el aula.</li>
+                            <li>Llena los datos del inventario.</li>
+                            <li>Haz clic en <b>Agregar</b> para guardar el registro.</li>
+                            <li>Edita o elimina registros si es necesario.</li>
+                            <li>Al finalizar, haz clic en <b>Exportar a CSV</b> para descargar el archivo.</li>
+                            <li>Envía el archivo CSV al responsable para su integración central.</li>
+                        </ol>
+                    </li>
+                    <li><b>¡Importante!</b>
+                        <ul>
+                            <li>No edites el HTML si no sabes programar.</li>
+                            <li>No borres la variable <code>aulasData</code>.</li>
+                            <li>Exporta el CSV antes de cerrar la página, o perderás los datos.</li>
+                            <li>Esta página <b>no</b> permite importar archivos CSV.</li>
+                            <li>No compartas el HTML con datos personales.</li>
+                        </ul>
+                    </li>
+                    <li><b>Recomendaciones:</b>
+                        <ul>
+                            <li>Haz copia de seguridad del CSV después de cada sesión.</li>
+                            <li>Si tienes dudas, consulta al responsable o este manual.</li>
+                            <li>Usa navegadores actualizados.</li>
+                        </ul>
+                    </li>
+                </ul>
+                <div style="text-align:center;color:#b71c1c;font-size:0.95em;">Manual incluido para orientar a los usuarios.<br>17/11/2025</div>
+            </div>
+        </div>
     <form id="formulario">
         <label>Nivel:
             <select name="nivel" required>
