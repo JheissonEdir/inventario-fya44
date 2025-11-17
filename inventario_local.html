@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="inventario_favicon.svg">
     <title>Inventario del Colegio Fe y Alegría 44 - 2025</title>
     <style>
         body { font-family: Arial, sans-serif; margin: 10px; background: #fff; }
@@ -51,11 +52,15 @@
                 <option value="Secundaria">Secundaria</option>
             </select>
         </label>
-        <label>Aula Funcional: <input name="aula_funcional" required></label>
-        <label>Denominación: <input name="denominacion" required></label>
-        <label>Cantidad: <input name="cantidad" type="number" min="1" value="1" required></label>
-        <label>Marca: <input name="marca"></label>
-        <label>Modelo: <input name="modelo"></label>
+        <label>Aula Funcional:
+            <select name="aula_funcional" id="aula_funcional" required>
+                <option value="">Seleccione un aula</option>
+            </select>
+        </label>
+        <label>Denominación: <input name="denominacion" required placeholder="Ej: Mesa de madera, Silla metálica"></label>
+        <label>Cantidad: <input name="cantidad" type="number" min="1" value="1" required placeholder="Ej: 10"></label>
+        <label>Marca: <input name="marca" placeholder="Ej: Madera Perú, Genérica"></label>
+        <label>Modelo: <input name="modelo" placeholder="Ej: Grande Bipersonal, Estándar"></label>
         <label>Tipo:
             <select name="tipo" required>
                 <option value="Mobiliario">Mobiliario</option>
@@ -64,14 +69,14 @@
                 <option value="Otro">Otro</option>
             </select>
         </label>
-        <label>Color: <input name="color"></label>
-        <label>Serie: <input name="serie"></label>
-        <label>Largo: <input name="largo" type="number" step="0.01"></label>
-        <label>Ancho: <input name="ancho" type="number" step="0.01"></label>
-        <label>Alto: <input name="alto" type="number" step="0.01"></label>
-        <label>Documento de Alta: <input name="documento_alta"></label>
-        <label>Fecha de Compra: <input name="fecha_compra" type="date"></label>
-        <label>Número de Documento: <input name="numero_documento"></label>
+        <label>Color: <input name="color" placeholder="Ej: Marrón, Azul"></label>
+        <label>Serie: <input name="serie" placeholder="Ej: 12345, SN-001"></label>
+        <label>Largo: <input name="largo" type="number" step="0.01" placeholder="Ej: 1.20"></label>
+        <label>Ancho: <input name="ancho" type="number" step="0.01" placeholder="Ej: 0.60"></label>
+        <label>Alto: <input name="alto" type="number" step="0.01" placeholder="Ej: 0.75"></label>
+        <label>Documento de Alta: <input name="documento_alta" placeholder="Ej: DOC-001"></label>
+        <label>Fecha de Compra: <input name="fecha_compra" type="date" placeholder="Ej: 2025-03-15"></label>
+        <label>Número de Documento: <input name="numero_documento" placeholder="Ej: 000123"></label>
         <label>Estado:
             <select name="estado" required>
                 <option value="Bueno">Bueno</option>
@@ -87,9 +92,9 @@
                 <option value="Otra">Otra</option>
             </select>
         </label>
-        <label>Observaciones: <input name="observaciones"></label>
-        <label>Usuario Responsable: <input name="usuario_responsable"></label>
-        <label>Ubicación: <input name="ubicacion"></label>
+        <label>Observaciones: <input name="observaciones" placeholder="Ej: Sin detalles, Reparar pata"></label>
+        <label>Usuario Responsable: <input name="usuario_responsable" placeholder="Ej: Juan Pérez"></label>
+        <label>Ubicación: <input name="ubicacion" placeholder="Ej: Aula 5to B, Dirección"></label>
         <button type="submit" class="btn">Agregar</button>
         <button type="button" class="btn" onclick="exportarCSV()">Exportar a CSV</button>
         <button type="button" class="btn" onclick="limpiarInventario()">Limpiar Inventario</button>
@@ -113,6 +118,35 @@
     const inventario = [];
     const tabla = document.querySelector('#tabla tbody');
     document.getElementById('anio').textContent = new Date().getFullYear();
+
+    // Cargar aulas.json y actualizar el select de aula_funcional
+    let aulasData = {};
+    async function cargarAulas() {
+        try {
+            const res = await fetch('aulas.json');
+            aulasData = await res.json();
+            actualizarAulas();
+        } catch (e) {
+            aulasData = {};
+        }
+    }
+
+    function actualizarAulas() {
+        const nivel = document.querySelector('select[name="nivel"]').value;
+        const selectAula = document.getElementById('aula_funcional');
+        selectAula.innerHTML = '<option value="">Seleccione un aula</option>';
+        if (aulasData[nivel]) {
+            aulasData[nivel].forEach(aula => {
+                const opt = document.createElement('option');
+                opt.value = aula;
+                opt.textContent = aula;
+                selectAula.appendChild(opt);
+            });
+        }
+    }
+
+    document.querySelector('select[name="nivel"]').addEventListener('change', actualizarAulas);
+    cargarAulas();
 
     function renderTabla() {
         tabla.innerHTML = '';
@@ -147,6 +181,7 @@
         }
         renderTabla();
         this.reset();
+        actualizarAulas(); // Para que el select no se reinicie
     };
 
     function exportarCSV() {
