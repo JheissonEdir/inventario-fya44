@@ -98,6 +98,7 @@
         <button type="submit" class="btn">Agregar</button>
         <button type="button" class="btn" onclick="exportarCSV()">Exportar a CSV</button>
         <button type="button" class="btn" onclick="limpiarInventario()">Limpiar Inventario</button>
+        <button type="button" class="btn" onclick="location.reload()">Actualizar desde GitHub</button>
     </form>
     <h3>Inventario Actual</h3>
     <table id="tabla">
@@ -121,16 +122,71 @@
 
     // Lista de aulas embebida directamente en el HTML
     const aulasData = {
-      "Inicial": [
-        "Aula 1", "Aula 2", "Aula 3", "Aula 4", "Aula 5", "Aula 6", "Aula 7", "Aula 8", "Aula 9", "Aula 10", "Dirección", "Secretaría", "Sala de Psicomotricidad"
-      ],
-      "Primaria": [
-        "1A", "1B", "2A", "2B", "3A", "3B", "4A", "4B", "5A", "5B", "6A", "6B", "Dirección", "Secretaría", "Sala de Cómputo", "Biblioteca"
-      ],
-      "Secundaria": [
-        "Aula 1", "Aula 2", "Aula 3", "1A", "1B", "2A", "2B", "3A", "3B", "4A", "4B", "5A", "5B", "ATF", "Aula 8", "Secretaría", "Dirección", "Sala Subdirección", "Coordinación", "Sub Dirección", "Pastoral", "TOPICO", "PSICOLOGIA", "Sala de Docentes", "Auditorio", "Biblioteca", "Aula 18", "Aula 19"
-      ]
-    };
+  "Inicial": [
+    "Aula 1",
+    "Aula 2",
+    "Aula 3",
+    "Aula 4",
+    "Aula 5",
+    "Aula 6",
+    "Aula 7",
+    "Aula 8",
+    "Aula 9",
+    "Aula 10",
+    "Dirección",
+    "Secretaría",
+    "Sala de Psicomotricidad",
+    "Almacen"
+  ],
+  "Primaria": [
+    "1A",
+    "1B",
+    "2A",
+    "2B",
+    "3A",
+    "3B",
+    "4A",
+    "4B",
+    "5A",
+    "5B",
+    "6A",
+    "6B",
+    "Dirección",
+    "Secretaría",
+    "Sala de Cómputo",
+    "Biblioteca"
+  ],
+  "Secundaria": [
+    "Aula 1",
+    "Aula 2",
+    "Aula 3",
+    "1A",
+    "1B",
+    "2A",
+    "2B",
+    "3A",
+    "3B",
+    "4A",
+    "4B",
+    "5A",
+    "5B",
+    "ATF",
+    "Aula 8",
+    "Secretaría",
+    "Dirección",
+    "Sala Subdirección",
+    "Coordinación",
+    "Sub Dirección",
+    "Pastoral",
+    "TOPICO",
+    "PSICOLOGIA",
+    "Sala de Docentes",
+    "Auditorio",
+    "Biblioteca",
+    "Aula 18",
+    "Aula 19"
+  ]
+};
 
     function actualizarAulas() {
         const nivel = document.querySelector('select[name="nivel"]').value;
