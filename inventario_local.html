@@ -132,7 +132,7 @@
     <table id="tabla">
         <thead>
         <tr>
-            <th>Nivel</th><th>Aula</th><th>Denominación</th><th>Cantidad</th><th>Marca</th><th>Modelo</th><th>Tipo</th><th>Color</th><th>Serie</th><th>Largo</th><th>Ancho</th><th>Alto</th><th>Doc. Alta</th><th>Fecha Compra</th><th>N° Doc</th><th>Estado</th><th>Procedencia</th><th>Obs.</th><th>Usuario</th><th>Ubicación</th><th>Fecha Registro</th>
+            <th>Nivel</th><th>Aula</th><th>Denominación</th><th>Cantidad</th><th>Marca</th><th>Modelo</th><th>Tipo</th><th>Color</th><th>Serie</th><th>Largo</th><th>Ancho</th><th>Alto</th><th>Doc. Alta</th><th>Fecha Compra</th><th>N° Doc</th><th>Estado</th><th>Procedencia</th><th>Obs.</th><th>Usuario</th><th>Ubicación</th><th>Fecha Registro</th><th>Acciones</th>
         </tr>
         </thead>
         <tbody></tbody>
@@ -235,9 +235,8 @@
 
     function renderTabla() {
         tabla.innerHTML = '';
-        inventario.forEach(item => {
+        inventario.forEach((item, idx) => {
             const tr = document.createElement('tr');
-            // Orden de columnas actualizado
             const columnas = [
                 'nivel','aula_funcional','denominacion','cantidad','marca','modelo','tipo','color','serie','largo','ancho','alto','documento_alta','fecha_compra','numero_documento','estado','procedencia','observaciones','usuario_responsable','ubicacion','fecha_registro'
             ];
@@ -247,22 +246,68 @@
                 td.textContent = item[col] || '';
                 tr.appendChild(td);
             });
+            // Botones de acción
+            const tdAcciones = document.createElement('td');
+            tdAcciones.setAttribute('data-label', 'Acciones');
+            tdAcciones.style.textAlign = 'center';
+            tdAcciones.innerHTML = `
+                <button class="btn" style="background:#1976d2;margin:2px 2px 2px 0;padding:4px 10px;font-size:0.95em;" onclick="editarRegistro(${idx})">Editar</button>
+                <button class="btn" style="background:#c62828;margin:2px 0 2px 2px;padding:4px 10px;font-size:0.95em;" onclick="eliminarRegistro(${idx})">Eliminar</button>
+            `;
+            tr.appendChild(tdAcciones);
             tabla.appendChild(tr);
         });
+    }
+
+    // Variable global para saber si estamos editando
+    let editandoIdx = null;
+
+    // Función para eliminar un registro (debe ser global)
+    function eliminarRegistro(idx) {
+        if (confirm('¿Seguro que deseas eliminar este registro?')) {
+            inventario.splice(idx, 1);
+            renderTabla();
+        }
+    }
+
+    // Función para editar un registro (debe ser global)
+    function editarRegistro(idx) {
+        const item = inventario[idx];
+        const form = document.getElementById('formulario');
+        // Selecciona el nivel antes de cargar el aula
+        if (form.elements['nivel']) {
+            form.elements['nivel'].value = item['nivel'];
+            actualizarAulas();
+        }
+        // Llenar el formulario con los datos del registro
+        for (const key in item) {
+            if (form.elements[key]) {
+                form.elements[key].value = item[key];
+            }
+        }
+        editandoIdx = idx;
+        // Llevar el foco al primer campo
+        form.elements['denominacion'].focus();
     }
 
     document.getElementById('formulario').onsubmit = function(e) {
         e.preventDefault();
         const data = Object.fromEntries(new FormData(this));
-        // Validación de duplicados (nivel, aula_funcional, denominacion, serie)
-        const idx = inventario.findIndex(row => row.nivel === data.nivel && row.aula_funcional === data.aula_funcional && row.denominacion === data.denominacion && row.serie === data.serie);
         data.cantidad = parseInt(data.cantidad) || 1;
         data.fecha_registro = new Date().toISOString().slice(0,10);
-        if (idx !== -1) {
-            // Si ya existe, suma la cantidad
-            inventario[idx].cantidad = parseInt(inventario[idx].cantidad) + data.cantidad;
+        if (editandoIdx !== null) {
+            // Si estamos editando, reemplazamos el registro
+            inventario[editandoIdx] = data;
+            editandoIdx = null;
         } else {
-            inventario.push(data);
+            // Validación de duplicados (nivel, aula_funcional, denominacion, serie)
+            const idx = inventario.findIndex(row => row.nivel === data.nivel && row.aula_funcional === data.aula_funcional && row.denominacion === data.denominacion && row.serie === data.serie);
+            if (idx !== -1) {
+                // Si ya existe, suma la cantidad
+                inventario[idx].cantidad = parseInt(inventario[idx].cantidad) + data.cantidad;
+            } else {
+                inventario.push(data);
+            }
         }
         renderTabla();
         this.reset();
