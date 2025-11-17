@@ -119,17 +119,18 @@
     const tabla = document.querySelector('#tabla tbody');
     document.getElementById('anio').textContent = new Date().getFullYear();
 
-    // Cargar aulas.json y actualizar el select de aula_funcional
-    let aulasData = {};
-    async function cargarAulas() {
-        try {
-            const res = await fetch('aulas.json');
-            aulasData = await res.json();
-            actualizarAulas();
-        } catch (e) {
-            aulasData = {};
-        }
-    }
+    // Lista de aulas embebida directamente en el HTML
+    const aulasData = {
+      "Inicial": [
+        "Aula 1", "Aula 2", "Aula 3", "Aula 4", "Aula 5", "Aula 6", "Aula 7", "Aula 8", "Aula 9", "Aula 10", "Dirección", "Secretaría", "Sala de Psicomotricidad"
+      ],
+      "Primaria": [
+        "1A", "1B", "2A", "2B", "3A", "3B", "4A", "4B", "5A", "5B", "6A", "6B", "Dirección", "Secretaría", "Sala de Cómputo", "Biblioteca"
+      ],
+      "Secundaria": [
+        "Aula 1", "Aula 2", "Aula 3", "1A", "1B", "2A", "2B", "3A", "3B", "4A", "4B", "5A", "5B", "ATF", "Aula 8", "Secretaría", "Dirección", "Sala Subdirección", "Coordinación", "Sub Dirección", "Pastoral", "TOPICO", "PSICOLOGIA", "Sala de Docentes", "Auditorio", "Biblioteca", "Aula 18", "Aula 19"
+      ]
+    };
 
     function actualizarAulas() {
         const nivel = document.querySelector('select[name="nivel"]').value;
@@ -146,7 +147,7 @@
     }
 
     document.querySelector('select[name="nivel"]').addEventListener('change', actualizarAulas);
-    cargarAulas();
+    actualizarAulas();
 
     function renderTabla() {
         tabla.innerHTML = '';
