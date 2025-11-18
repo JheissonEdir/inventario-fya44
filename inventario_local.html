@@ -144,7 +144,13 @@
         &copy; <span id="anio"></span> Derechos reservados
     </footer>
     <script>
-    const inventario = [];
+    // Cargar inventario desde localStorage si existe
+    let inventario = [];
+    if (localStorage.getItem('inventario_local')) {
+        try {
+            inventario = JSON.parse(localStorage.getItem('inventario_local')) || [];
+        } catch(e) { inventario = []; }
+    }
     const tabla = document.querySelector('#tabla tbody');
     document.getElementById('anio').textContent = new Date().getFullYear();
 
@@ -182,7 +188,8 @@
     "Dirección",
     "Secretaría",
     "Sala de Cómputo",
-    "Biblioteca"
+    "Biblioteca",
+    "Almacen"
   ],
   "Secundaria": [
     "Aula 1",
@@ -257,6 +264,7 @@
             tr.appendChild(tdAcciones);
             tabla.appendChild(tr);
         });
+        localStorage.setItem('inventario_local', JSON.stringify(inventario));
     }
 
     // Variable global para saber si estamos editando
@@ -340,6 +348,7 @@
     function limpiarInventario() {
         if (confirm('¿Seguro que deseas limpiar el inventario?')) {
             inventario.length = 0;
+            localStorage.removeItem('inventario_local');
             renderTabla();
         }
     }
