@@ -589,9 +589,15 @@
         const a = document.createElement('a');
         a.href = url;
         
-        // Generar nombre dinámico: inventario_{Nivel}_{AulaFuncional}.csv
-        const nivel = document.querySelector('select[name="nivel"]').value || 'SinNivel';
-        const aula = document.getElementById('aula_funcional').value || 'SinAula';
+        // Generar nombre dinámico basado en el PRIMER REGISTRO del inventario
+        let nivel = 'SinNivel';
+        let aula = 'SinAula';
+        
+        if (inventario.length > 0) {
+            nivel = inventario[0].nivel || 'SinNivel';
+            aula = inventario[0].aula_funcional || 'SinAula';
+        }
+        
         // Limpiar caracteres especiales del nombre del aula para el archivo
         const aulaLimpia = aula.replace(/[^a-zA-Z0-9]/g, '');
         const nombreArchivo = `inventario_${nivel}_${aulaLimpia}.csv`;
