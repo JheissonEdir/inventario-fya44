@@ -583,7 +583,13 @@
             'nivel','aula_funcional','denominacion','cantidad','marca','modelo','tipo','color','serie','largo','ancho','alto','documento_alta','fecha_compra','numero_documento','estado','procedencia','observaciones','usuario_responsable','ubicacion','fecha_registro'
         ];
         const encabezados = columnas;
-        const filas = inventario.map(obj => columnas.map(k => '"'+(obj[k]||'')+'"').join(','));
+        // Escapar comillas correctamente: reemplazar " por "" dentro de los valores y envolver en comillas
+        const filas = inventario.map(obj => columnas.map(k => {
+            const val = (obj[k] || '').toString();
+            // Escapar comillas dobles duplicándolas según estándar CSV RFC 4180
+            const escaped = val.replace(/"/g, '""');
+            return '"' + escaped + '"';
+        }).join(','));
         const csv = [encabezados.join(','), ...filas].join('\r\n');
         const blob = new Blob([csv], {type: 'text/csv'});
         const url = URL.createObjectURL(blob);
