@@ -578,11 +578,14 @@
             alert('No hay datos para exportar.');
             return;
         }
-        // Orden de columnas actualizado
+        // Orden de columnas EXACTO que espera inventario_central.php (cantidad al final)
         const columnas = [
-            'nivel','aula_funcional','denominacion','cantidad','marca','modelo','tipo','color','serie','largo','ancho','alto','documento_alta','fecha_compra','numero_documento','estado','procedencia','observaciones','usuario_responsable','ubicacion','fecha_registro'
+            'nivel','aula_funcional','denominacion','marca','modelo','tipo','color','serie','largo','ancho','alto','documento_alta','fecha_compra','numero_documento','estado','procedencia','observaciones','usuario_responsable','ubicacion','fecha_registro','cantidad'
         ];
-        const encabezados = columnas;
+        // Nombres legibles para el encabezado del CSV
+        const encabezadosLegibles = [
+            'Nivel','Aula Funcional','Denominación','Marca','Modelo','Tipo','Color','Serie','Largo','Ancho','Alto','Documento de Alta','Fecha Compra','N° Documento','Estado','Procedencia','Observaciones','Usuario Responsable','Ubicación','Fecha Registro','Cantidad'
+        ];
         // Escapar comillas correctamente: reemplazar " por "" dentro de los valores y envolver en comillas
         const filas = inventario.map(obj => columnas.map(k => {
             const val = (obj[k] || '').toString();
@@ -590,7 +593,7 @@
             const escaped = val.replace(/"/g, '""');
             return '"' + escaped + '"';
         }).join(','));
-        const csv = [encabezados.join(','), ...filas].join('\r\n');
+        const csv = [encabezadosLegibles.join(','), ...filas].join('\r\n');
         const blob = new Blob([csv], {type: 'text/csv'});
         const url = URL.createObjectURL(blob);
         const a = document.createElement('a');
