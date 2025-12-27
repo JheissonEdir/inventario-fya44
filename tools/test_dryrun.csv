@@ -1,0 +1,7 @@
+Nivel,Aula,Denominación,Marca,Modelo,Tipo,Color,Serie,Largo,Ancho,Alto,Documento de Alta,Fecha Compra,N° Documento,Estado,Procedencia,Observaciones,Usuario Responsable,Ubicación,Fecha Registro,Cantidad
+Inicial,3 Años A,Mesa de madera,MADERA,,Mobiliario,MARRON,ABC123,1.00,0.60,0.75,DOC-001,2025-11-01,0001,Bueno,Donación,,Juan Pérez,Aula 3,2025-11-25,1
+Primaria,Aula 1,Silla plástico,PLASTICO,,Mobiliario,AZUL,XYZ999,0.45,0.45,0.90,DOC-002,2025-10-05,0002,Bueno,Compra,,María Gómez,Aula 1,2025-10-06,2
+Secundaria,Aula 5,Proyector,EPSON,,Electrónico,NEGRO,PRJ-55,45,30,10,DOC-003,2024-05-12,0003,Bueno,Compra,,Luis Díaz,Aula 5,2024-05-13,1
+;Fila inválida con separador errado
+Inicial,3 Años A,Banco de madera,MADERA,,Mobiliario,MADERA,,1.20,0.40,0.45,DOC-004,2025-08-01,0004,Bueno,Donación,,Ana Ruiz,Aula 2,2025-08-02,1
+Primaria,Aula 2,Armario metálico,ACME,,Mobiliario,GRIS,ARM-10,2.00,0.80,1.80,DOC-005,2023-03-10,0005,Bueno,Compra,,Carlos Pérez,Aula 2,2023-03-11,1,EXTRA_COL

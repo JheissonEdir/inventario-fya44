@@ -1,0 +1,15 @@
+nivel,aula_funcional,denominacion,cantidad,marca,modelo,tipo,color,serie,largo,ancho,alto,documento_alta,fecha_compra,numero_documento,estado,procedencia,observaciones,usuario_responsable,ubicacion,fecha_registro
+Inicial,Aula 1,Mesa de madera,5,Madera Perú,Grande Bipersonal,Mobiliario,Marrón,12345,1.2,0.6,0.75,DOC-001,2025-03-15,000123,Bueno,UGEL,Sin detalles,Juan Pérez,Aula 1,2025-11-17
+Inicial,Aula 2,Silla metálica,10,Genérica,Estándar,Mobiliario,Azul,12346,0.5,0.5,0.8,DOC-002,2025-03-16,000124,Regular,Fe y Alegría,Oxidada en base,Ana Torres,Aula 2,2025-11-17
+Primaria,1A,Computadora,2,HP,ProDesk 400,Equipo,Negro,PC001,0.4,0.2,0.4,DOC-003,2025-04-01,000125,Bueno,Jesuitas,Funciona bien,Pedro Gómez,Sala de Cómputo,2025-11-17
+Primaria,2B,Proyector,1,Epson,EB-X41,Equipo,Blanco,PRJ002,0.3,0.25,0.1,DOC-004,2025-04-10,000126,Bueno,UGEL,Lámpara nueva,Lucía Ríos,Biblioteca,2025-11-17
+Secundaria,3A,Estante,3,Genérica,Grande,Mobiliario,Gris,EST003,1.5,0.4,1.8,DOC-005,2025-05-20,000127,Regular,Fe y Alegría,Un estante flojo,Marcos Díaz,Aula 3A,2025-11-17
+Secundaria,1B,Microscopio,2,Leica,DM500,Equipo,Blanco,MC001,0.2,0.2,0.4,DOC-006,2025-06-01,000128,Bueno,Jesuitas,Sin accesorios,Elena Ruiz,Laboratorio,2025-11-17
+Inicial,Dirección,Impresora,1,Canon,Pixma G3110,Equipo,Negro,IMP001,0.45,0.3,0.2,DOC-007,2025-07-10,000129,Bueno,UGEL,Cartucho bajo,Raúl Salas,Dirección,2025-11-17
+Primaria,5B,Armario,2,Genérica,Metálico,Mobiliario,Gris,ARM002,1.0,0.5,1.8,DOC-008,2025-08-15,000130,Regular,Fe y Alegría,Puerta rota,María López,Aula 5B,2025-11-17
+Secundaria,ATF,Proyector,1,BenQ,MS550,Equipo,Blanco,PRJ003,0.3,0.25,0.1,DOC-009,2025-09-01,000131,Bueno,UGEL,Sin control,Oscar Vega,ATF,2025-11-17
+Primaria,Secretaría,Teléfono,1,Panasonic,KX-TS880,Equipo,Negro,TEL001,0.2,0.15,0.1,DOC-010,2025-10-05,000132,Bueno,Jesuitas,Funciona bien,Patricia León,Secretaría,2025-11-17
+Secundaria,Auditorio,Parlante,4,JBL,Go 3,Equipo,Negro,PARL001,0.1,0.1,0.1,DOC-011,2025-10-20,000133,Bueno,UGEL,Sin detalles,Andrés Silva,Auditorio,2025-11-17
+Inicial,Sala de Psicomotricidad,Colchoneta,8,Genérica,Estándar,Material,Azul,COL001,1.0,0.5,0.1,DOC-012,2025-11-01,000134,Bueno,Fe y Alegría,Desgaste leve,Laura Méndez,Sala de Psicomotricidad,2025-11-17
+Primaria,4A,Televisor,1,Samsung,Smart TV,Equipo,Negro,TV001,1.1,0.7,0.1,DOC-013,2025-11-10,000135,Bueno,UGEL,Control perdido,Julio Castro,Aula 4A,2025-11-17
+Secundaria,Secretaría,Archivador,2,Genérica,Grande,Mobiliario,Gris,ARCH001,0.8,0.4,1.2,DOC-014,2025-11-12,000136,Regular,Fe y Alegría,Oxidado,Silvia Ramos,Secretaría,2025-11-17

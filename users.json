@@ -1,0 +1,20 @@
+[
+    {
+        "user": "inicial",
+        "pass": "$2y$10$0w1k9CcGxdTNIwWySZOqqO0pL5JEeP.OHk2Od216wgzMUIfjlZDhS",
+        "token": "7c84610919c7a6bc34106697419c5535",
+        "token_created": "2025-11-22T17:37:20+00:00"
+    },
+    {
+        "user": "Primaria",
+        "pass": "$2y$10$k.atoNHgYsME6I2MxNTLhuDM8vxFWkLAArlFi05FTpucqdDRNEPB2",
+        "token": "7c84610919c7a6bc34106697419c5535",
+        "token_created": "2025-11-22T17:37:20+00:00"
+    },
+    {
+        "user": "Secundaria",
+        "pass": "$2y$10$eo5dWyH6aRHbDrnnUXCqEOdJC3jJ7q\/a1uz6G9m7RHW2q0bLOsZZe",
+        "token": "7c84610919c7a6bc34106697419c5535",
+        "token_created": "2025-11-22T17:37:20+00:00"
+    }
+]

@@ -1,0 +1,25 @@
+[
+    {
+        "nivel": "Secundaria",
+        "aula_funcional": "Aula 1",
+        "cantidad": 38,
+        "denominacion": "Aula1",
+        "marca": "hp",
+        "modelo": "pavivlio",
+        "tipo": "Equipo",
+        "color": "negro verde",
+        "serie": "0033",
+        "largo": "0.3",
+        "ancho": "0.3",
+        "alto": "0.3",
+        "documento_alta": "03669",
+        "fecha_compra": "1988-08-14",
+        "numero_documento": "3698741",
+        "estado": "Bueno",
+        "procedencia": "UGEL",
+        "observaciones": "ninguna",
+        "usuario_responsable": "jheisson viernes 13",
+        "ubicacion": "apv agua buena ",
+        "fecha_registro": "2025-11-22"
+    }
+]

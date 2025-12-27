@@ -1,0 +1,25 @@
+[
+    {
+        "nivel": "Secundaria",
+        "aula_funcional": "Aula 1",
+        "cantidad": 36,
+        "denominacion": "PC ALL in NE",
+        "marca": "hp",
+        "modelo": "pavilion",
+        "tipo": "Equipo",
+        "color": "negro",
+        "serie": "001",
+        "largo": "1.2",
+        "ancho": "1.3",
+        "alto": "1.3",
+        "documento_alta": "003-2025",
+        "fecha_compra": "1988-08-14",
+        "numero_documento": "03369",
+        "estado": "Bueno",
+        "procedencia": "Jesuitas",
+        "observaciones": "ninguna",
+        "usuario_responsable": "pailon",
+        "ubicacion": "segundo piso",
+        "fecha_registro": "2025-11-22"
+    }
+]

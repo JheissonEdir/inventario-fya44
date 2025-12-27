@@ -1,0 +1,36 @@
+Manual de Usuario
+Sistema de Inventario Escolar Fe y Alegría 44
+
+1. Acceso al sistema
+- Ingresa a la dirección del sistema en tu navegador (ejemplo: http://localhost/Inventario%20Escolar/).
+
+2. Registro y consulta de inventario
+- Ve a la sección “Inventario Central”.
+- Agrega, edita o elimina bienes desde la tabla principal.
+- Usa los filtros (nivel, aula, tipo, estado, etc.) y haz clic en “Mostrar” para buscar artículos específicos.
+
+3. Reportes y exportación
+- En “Reporte de Inventario” puedes filtrar, exportar a Excel, PDF o CSV, imprimir y seleccionar columnas.
+
+4. Generación y uso de QR por aula
+- Selecciona un aula y haz clic en “Generar QR del aula”.
+- Imprime o descarga el QR y colócalo en el aula.
+
+5. Inventario rápido por QR
+- Escanea el QR con tu celular o tablet.
+- Se abrirá la lista de bienes del aula.
+- Ratifica o actualiza el estado de los bienes y guarda los cambios.
+
+6. Exportar inventario de un aula específica
+- Desde la página del aula (por QR), exporta a Excel o PDF solo los bienes de ese salón.
+
+7. Historial de verificaciones
+- Cada actualización guarda la fecha y los cambios.
+- Consulta el historial desde la página del aula.
+
+8. Recomendaciones
+- Usa “Limpiar filtros” para ver todo el inventario.
+- Verifica que los nombres de las aulas coincidan para el QR.
+- Para otros dispositivos, usa la IP local de tu PC en la URL del QR.
+
+Cualquier duda o soporte, consulta con el administrador del sistema.

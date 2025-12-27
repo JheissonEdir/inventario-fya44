@@ -1,0 +1,4 @@
+nivel,aula_funcional,denominacion,cantidad,marca,modelo,tipo,color,serie,largo,ancho,alto,documento_alta,fecha_compra,numero_documento,estado,procedencia,observaciones,usuario_responsable,ubicacion,fecha_registro
+"Secundaria","Aula 18","Escritorio","1","Madera","Estandar","Mobiliario","Naranja rojizo","--","1.00","0.52","0.81","--","","--","Regular","Fe y Alegría","Uno de los cajones no cierra bien","Yudit Rojas Rodriguez","Segundo piso","2025-12-10"
+"Secundaria","Aula 18","Mesas","31","Madera","Estandar","Mobiliario","Marrón","--","0.50","0.49","0.72","--","","--","Regular","Fe y Alegría","--","Yudit Rojas Rodriguez","segundo piso","2025-12-10"
+"Secundaria","Aula 19","Escritorio","1","Madera","Estandar","Mobiliario","naranja rojizo","--","1.00","0.57","0.80","--","","--","Regular","Fe y Alegría","","Yudit Rojas Rodriguez","segundo piso","2025-12-13"

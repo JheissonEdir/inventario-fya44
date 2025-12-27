@@ -1,0 +1,995 @@
+[IMPORT MANUAL] Delimitador detectado: ',' - Conteos: {",":160,";":0,"\\t":0,"|":0}
+[IMPORT MANUAL] Encabezados detectados: ["nivel","aula_funcional","denominacion","cantidad","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_alta","fecha_compra","numero_documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro"]
+Row 1: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Escritorio'
+  tmp array keys: nivel, aula_funcional, denominacion, cantidad, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_alta, fecha_compra, numero_documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro
+  CSV data: ["Secundaria","Aula 18","Escritorio","1","Madera","Estandar","Mobiliario","Naranja rojizo","--","1.00","0.52","0.81","--","","--","Regular","Fe y Alegr\u00eda","Uno de los cajones no cierra bien","Yudit Rojas Rodriguez","Segundo piso","2025-12-10"]
+  Headers: ["nivel","aula_funcional","denominacion","cantidad","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_alta","fecha_compra","numero_documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro"]
+
+Row 2: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Mesas'
+  tmp array keys: nivel, aula_funcional, denominacion, cantidad, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_alta, fecha_compra, numero_documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro
+  CSV data: ["Secundaria","Aula 18","Mesas","31","Madera","Estandar","Mobiliario","Marr\u00f3n","--","0.50","0.49","0.72","--","","--","Regular","Fe y Alegr\u00eda","--","Yudit Rojas Rodriguez","segundo piso","2025-12-10"]
+  Headers: ["nivel","aula_funcional","denominacion","cantidad","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_alta","fecha_compra","numero_documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro"]
+
+Row 3: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Sillas'
+  tmp array keys: nivel, aula_funcional, denominacion, cantidad, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_alta, fecha_compra, numero_documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro
+  CSV data: ["Secundaria","Aula 18","Sillas","32","Madera","Estandar","Mobiliario","Marr\u00f3n","--","0.38","0.38","0.73","--","","--","Regular","Fe y Alegr\u00eda","--","Yudit Rojas Rodriguez","segundo piso","2025-12-10"]
+  Headers: ["nivel","aula_funcional","denominacion","cantidad","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_alta","fecha_compra","numero_documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro"]
+
+Row 4: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Estante pequeño'
+  tmp array keys: nivel, aula_funcional, denominacion, cantidad, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_alta, fecha_compra, numero_documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro
+  CSV data: ["Secundaria","Aula 18","Estante peque\u00f1o","1","Madera","Peque\u00f1o","Mobiliario","Marr\u00f3n rojizo","--","1.02","0.24","1.52","--","","--","Regular","Fe y Alegr\u00eda","--","Yudit Rojas Rodriguez","segundo piso","2025-12-10"]
+  Headers: ["nivel","aula_funcional","denominacion","cantidad","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_alta","fecha_compra","numero_documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro"]
+
+Row 5: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Estante grande'
+  tmp array keys: nivel, aula_funcional, denominacion, cantidad, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_alta, fecha_compra, numero_documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro
+  CSV data: ["Secundaria","Aula 18","Estante grande","1","Madera","Grande","Mobiliario","Marr\u00f3n rojizo","--","1.18","0.39","1.98","--","","--","Regular","Fe y Alegr\u00eda","Tablero superior est\u00e1 despegado en la esquina","Yudit Rojas Rodriguez","segundo piso","2025-12-10"]
+  Headers: ["nivel","aula_funcional","denominacion","cantidad","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_alta","fecha_compra","numero_documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro"]
+
+Row 6: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Cañón multimedia'
+  tmp array keys: nivel, aula_funcional, denominacion, cantidad, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_alta, fecha_compra, numero_documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro
+  CSV data: ["Secundaria","Aula 18","Ca\u00f1\u00f3n multimedia","1","Epson","Estandar","Otro","Negro","--","0.29","0.21","0","--","","--","Regular","Fe y Alegr\u00eda","--","Yudit Rojas Rodriguez","segundo piso","2025-12-10"]
+  Headers: ["nivel","aula_funcional","denominacion","cantidad","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_alta","fecha_compra","numero_documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro"]
+
+Row 7: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Control'
+  tmp array keys: nivel, aula_funcional, denominacion, cantidad, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_alta, fecha_compra, numero_documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro
+  CSV data: ["Secundaria","Aula 18","Control","1","Epson","Estandar","Otro","Blanco","--","0.14","0.05","0","--","","--","Regular","Fe y Alegr\u00eda","--","Yudit Rojas Rodriguez","segundo piso","2025-12-10"]
+  Headers: ["nivel","aula_funcional","denominacion","cantidad","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_alta","fecha_compra","numero_documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro"]
+
+Row 8: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Pizarra blanca'
+  tmp array keys: nivel, aula_funcional, denominacion, cantidad, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_alta, fecha_compra, numero_documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro
+  CSV data: ["Secundaria","Aula 18","Pizarra blanca","1","Melamina","Estandar","Otro","Blanco","--","2.40","0","1.20","--","","--","Regular","Fe y Alegr\u00eda","--","Yudit Rojas Rodriguez","segundo piso","2025-12-10"]
+  Headers: ["nivel","aula_funcional","denominacion","cantidad","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_alta","fecha_compra","numero_documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro"]
+
+Row 9: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Tacho'
+  tmp array keys: nivel, aula_funcional, denominacion, cantidad, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_alta, fecha_compra, numero_documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro
+  CSV data: ["Secundaria","Aula 18","Tacho","1","Pl\u00e1stico","Estandar","Material","Negro","--","0.27","0.27","0.38","--","","--","Malo","Fe y Alegr\u00eda","La tapa est\u00e1 rota","Yudit Rojas Rodriguez","segundo piso","2025-12-13"]
+  Headers: ["nivel","aula_funcional","denominacion","cantidad","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_alta","fecha_compra","numero_documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro"]
+
+Row 10: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Escobillón'
+  tmp array keys: nivel, aula_funcional, denominacion, cantidad, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_alta, fecha_compra, numero_documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro
+  CSV data: ["Secundaria","Aula 18","Escobill\u00f3n","1","Madera","Estandar","Material","Marr\u00f3n","--","0.40","0.05","1.33","--","","--","Malo","Fe y Alegr\u00eda","Esta desgastado","Yudit Rojas Rodriguez","segundo piso","2025-12-10"]
+  Headers: ["nivel","aula_funcional","denominacion","cantidad","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_alta","fecha_compra","numero_documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro"]
+
+Row 11: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Recogedor'
+  tmp array keys: nivel, aula_funcional, denominacion, cantidad, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_alta, fecha_compra, numero_documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro
+  CSV data: ["Secundaria","Aula 18","Recogedor","1","Pl\u00e1stico","Estandar","Material","Rojo","--","0.26","0.25","0.79","--","","--","Regular","Fe y Alegr\u00eda","--","Yudit Rojas Rodriguez","segundo piso","2025-12-10"]
+  Headers: ["nivel","aula_funcional","denominacion","cantidad","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_alta","fecha_compra","numero_documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro"]
+
+Row 12: aula_funcional='Aula 18', nivel='Secundaria', denominacion='carpeta unipersonal'
+  tmp array keys: nivel, aula_funcional, denominacion, cantidad, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_alta, fecha_compra, numero_documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro
+  CSV data: ["Secundaria","Aula 18","carpeta unipersonal","1","Madera","Estandar","Mobiliario","Color madera","--","0.82","0.59","0.80","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-13"]
+  Headers: ["nivel","aula_funcional","denominacion","cantidad","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_alta","fecha_compra","numero_documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro"]
+
+Row 13: aula_funcional='Aula 19', nivel='Secundaria', denominacion='Escritorio'
+  tmp array keys: nivel, aula_funcional, denominacion, cantidad, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_alta, fecha_compra, numero_documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro
+  CSV data: ["Secundaria","Aula 19","Escritorio","1","Madera","Estandar","Mobiliario","naranja rojizo","--","1.00","0.57","0.80","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-13"]
+  Headers: ["nivel","aula_funcional","denominacion","cantidad","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_alta","fecha_compra","numero_documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro"]
+
+Row 14: aula_funcional='Aula 19', nivel='Secundaria', denominacion='Silla'
+  tmp array keys: nivel, aula_funcional, denominacion, cantidad, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_alta, fecha_compra, numero_documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro
+  CSV data: ["Secundaria","Aula 19","Silla","48","Madera","Estandar","Mobiliario","Marr\u00f3n","--","0.38","0.35","071","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-13"]
+  Headers: ["nivel","aula_funcional","denominacion","cantidad","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_alta","fecha_compra","numero_documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro"]
+
+Row 15: aula_funcional='Aula 19', nivel='Secundaria', denominacion='Mesa'
+  tmp array keys: nivel, aula_funcional, denominacion, cantidad, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_alta, fecha_compra, numero_documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro
+  CSV data: ["Secundaria","Aula 19","Mesa","44","Madera","Estandar","Mobiliario","Marr\u00f3n","--","0.60","0.48","0.72","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-13"]
+  Headers: ["nivel","aula_funcional","denominacion","cantidad","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_alta","fecha_compra","numero_documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro"]
+
+Row 16: aula_funcional='Aula 19', nivel='Secundaria', denominacion='Pizarra'
+  tmp array keys: nivel, aula_funcional, denominacion, cantidad, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_alta, fecha_compra, numero_documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro
+  CSV data: ["Secundaria","Aula 19","Pizarra","1","Melamina","Estandar","Mobiliario","Blanco","--","2.40","0","1.20","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-13"]
+  Headers: ["nivel","aula_funcional","denominacion","cantidad","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_alta","fecha_compra","numero_documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro"]
+
+Row 17: aula_funcional='Aula 19', nivel='Secundaria', denominacion='Estante'
+  tmp array keys: nivel, aula_funcional, denominacion, cantidad, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_alta, fecha_compra, numero_documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro
+  CSV data: ["Secundaria","Aula 19","Estante","1","Melamina","Grande","Mobiliario","Caf\u00e9","--","1.20","0.30","1.99","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-13"]
+  Headers: ["nivel","aula_funcional","denominacion","cantidad","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_alta","fecha_compra","numero_documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro"]
+
+Row 18: aula_funcional='Aula 19', nivel='Secundaria', denominacion='carpeta unipersonal'
+  tmp array keys: nivel, aula_funcional, denominacion, cantidad, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_alta, fecha_compra, numero_documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro
+  CSV data: ["Secundaria","Aula 19","carpeta unipersonal","1","Madera","Estandar","Mobiliario","Marr\u00f3n","--","0.79","0.58","0.82","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-13"]
+  Headers: ["nivel","aula_funcional","denominacion","cantidad","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_alta","fecha_compra","numero_documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro"]
+
+Row 19: aula_funcional='Aula 19', nivel='Secundaria', denominacion='Cañón multimedia'
+  tmp array keys: nivel, aula_funcional, denominacion, cantidad, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_alta, fecha_compra, numero_documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro
+  CSV data: ["Secundaria","Aula 19","Ca\u00f1\u00f3n multimedia","1","Epson","Estandar","Otro","negro","--","0.29","0.21","0","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-13"]
+  Headers: ["nivel","aula_funcional","denominacion","cantidad","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_alta","fecha_compra","numero_documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro"]
+
+[IMPORT MANUAL] Delimitador detectado: ',' - Conteos: {",":160,";":0,"\\t":0,"|":0}
+[IMPORT MANUAL] Encabezados detectados: ["nivel","aula_funcional","denominacion","cantidad","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_alta","fecha_compra","numero_documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro"]
+[IMPORT MANUAL] Delimitador detectado: ',' - Conteos: {",":160,";":0,"\\t":0,"|":0}
+[IMPORT MANUAL] Encabezados detectados: ["nivel","aula_funcional","denominacion","cantidad","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_alta","fecha_compra","numero_documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro"]
+Row 1: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Escritorio'
+  tmp array keys: nivel, aula_funcional, denominacion, cantidad, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_alta, fecha_compra, numero_documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro
+  CSV data: ["Secundaria","Aula 18","Escritorio","1","Madera","Estandar","Mobiliario","Naranja rojizo","--","1.00","0.52","0.81","--","","--","Regular","Fe y Alegr\u00eda","Uno de los cajones no cierra bien","Yudit Rojas Rodriguez","Segundo piso","2025-12-10"]
+  Headers: ["nivel","aula_funcional","denominacion","cantidad","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_alta","fecha_compra","numero_documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro"]
+
+Row 2: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Mesas'
+  tmp array keys: nivel, aula_funcional, denominacion, cantidad, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_alta, fecha_compra, numero_documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro
+  CSV data: ["Secundaria","Aula 18","Mesas","31","Madera","Estandar","Mobiliario","Marr\u00f3n","--","0.50","0.49","0.72","--","","--","Regular","Fe y Alegr\u00eda","--","Yudit Rojas Rodriguez","segundo piso","2025-12-10"]
+  Headers: ["nivel","aula_funcional","denominacion","cantidad","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_alta","fecha_compra","numero_documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro"]
+
+Row 3: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Sillas'
+  tmp array keys: nivel, aula_funcional, denominacion, cantidad, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_alta, fecha_compra, numero_documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro
+  CSV data: ["Secundaria","Aula 18","Sillas","32","Madera","Estandar","Mobiliario","Marr\u00f3n","--","0.38","0.38","0.73","--","","--","Regular","Fe y Alegr\u00eda","--","Yudit Rojas Rodriguez","segundo piso","2025-12-10"]
+  Headers: ["nivel","aula_funcional","denominacion","cantidad","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_alta","fecha_compra","numero_documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro"]
+
+Row 4: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Estante pequeño'
+  tmp array keys: nivel, aula_funcional, denominacion, cantidad, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_alta, fecha_compra, numero_documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro
+  CSV data: ["Secundaria","Aula 18","Estante peque\u00f1o","1","Madera","Peque\u00f1o","Mobiliario","Marr\u00f3n rojizo","--","1.02","0.24","1.52","--","","--","Regular","Fe y Alegr\u00eda","--","Yudit Rojas Rodriguez","segundo piso","2025-12-10"]
+  Headers: ["nivel","aula_funcional","denominacion","cantidad","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_alta","fecha_compra","numero_documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro"]
+
+Row 5: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Estante grande'
+  tmp array keys: nivel, aula_funcional, denominacion, cantidad, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_alta, fecha_compra, numero_documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro
+  CSV data: ["Secundaria","Aula 18","Estante grande","1","Madera","Grande","Mobiliario","Marr\u00f3n rojizo","--","1.18","0.39","1.98","--","","--","Regular","Fe y Alegr\u00eda","Tablero superior est\u00e1 despegado en la esquina","Yudit Rojas Rodriguez","segundo piso","2025-12-10"]
+  Headers: ["nivel","aula_funcional","denominacion","cantidad","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_alta","fecha_compra","numero_documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro"]
+
+Row 6: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Cañón multimedia'
+  tmp array keys: nivel, aula_funcional, denominacion, cantidad, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_alta, fecha_compra, numero_documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro
+  CSV data: ["Secundaria","Aula 18","Ca\u00f1\u00f3n multimedia","1","Epson","Estandar","Otro","Negro","--","0.29","0.21","0","--","","--","Regular","Fe y Alegr\u00eda","--","Yudit Rojas Rodriguez","segundo piso","2025-12-10"]
+  Headers: ["nivel","aula_funcional","denominacion","cantidad","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_alta","fecha_compra","numero_documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro"]
+
+Row 7: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Control'
+  tmp array keys: nivel, aula_funcional, denominacion, cantidad, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_alta, fecha_compra, numero_documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro
+  CSV data: ["Secundaria","Aula 18","Control","1","Epson","Estandar","Otro","Blanco","--","0.14","0.05","0","--","","--","Regular","Fe y Alegr\u00eda","--","Yudit Rojas Rodriguez","segundo piso","2025-12-10"]
+  Headers: ["nivel","aula_funcional","denominacion","cantidad","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_alta","fecha_compra","numero_documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro"]
+
+Row 8: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Pizarra blanca'
+  tmp array keys: nivel, aula_funcional, denominacion, cantidad, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_alta, fecha_compra, numero_documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro
+  CSV data: ["Secundaria","Aula 18","Pizarra blanca","1","Melamina","Estandar","Otro","Blanco","--","2.40","0","1.20","--","","--","Regular","Fe y Alegr\u00eda","--","Yudit Rojas Rodriguez","segundo piso","2025-12-10"]
+  Headers: ["nivel","aula_funcional","denominacion","cantidad","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_alta","fecha_compra","numero_documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro"]
+
+Row 9: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Tacho'
+  tmp array keys: nivel, aula_funcional, denominacion, cantidad, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_alta, fecha_compra, numero_documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro
+  CSV data: ["Secundaria","Aula 18","Tacho","1","Pl\u00e1stico","Estandar","Material","Negro","--","0.27","0.27","0.38","--","","--","Malo","Fe y Alegr\u00eda","La tapa est\u00e1 rota","Yudit Rojas Rodriguez","segundo piso","2025-12-13"]
+  Headers: ["nivel","aula_funcional","denominacion","cantidad","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_alta","fecha_compra","numero_documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro"]
+
+Row 10: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Escobillón'
+  tmp array keys: nivel, aula_funcional, denominacion, cantidad, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_alta, fecha_compra, numero_documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro
+  CSV data: ["Secundaria","Aula 18","Escobill\u00f3n","1","Madera","Estandar","Material","Marr\u00f3n","--","0.40","0.05","1.33","--","","--","Malo","Fe y Alegr\u00eda","Esta desgastado","Yudit Rojas Rodriguez","segundo piso","2025-12-10"]
+  Headers: ["nivel","aula_funcional","denominacion","cantidad","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_alta","fecha_compra","numero_documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro"]
+
+Row 11: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Recogedor'
+  tmp array keys: nivel, aula_funcional, denominacion, cantidad, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_alta, fecha_compra, numero_documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro
+  CSV data: ["Secundaria","Aula 18","Recogedor","1","Pl\u00e1stico","Estandar","Material","Rojo","--","0.26","0.25","0.79","--","","--","Regular","Fe y Alegr\u00eda","--","Yudit Rojas Rodriguez","segundo piso","2025-12-10"]
+  Headers: ["nivel","aula_funcional","denominacion","cantidad","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_alta","fecha_compra","numero_documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro"]
+
+Row 12: aula_funcional='Aula 18', nivel='Secundaria', denominacion='carpeta unipersonal'
+  tmp array keys: nivel, aula_funcional, denominacion, cantidad, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_alta, fecha_compra, numero_documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro
+  CSV data: ["Secundaria","Aula 18","carpeta unipersonal","1","Madera","Estandar","Mobiliario","Color madera","--","0.82","0.59","0.80","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-13"]
+  Headers: ["nivel","aula_funcional","denominacion","cantidad","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_alta","fecha_compra","numero_documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro"]
+
+Row 13: aula_funcional='Aula 19', nivel='Secundaria', denominacion='Escritorio'
+  tmp array keys: nivel, aula_funcional, denominacion, cantidad, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_alta, fecha_compra, numero_documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro
+  CSV data: ["Secundaria","Aula 19","Escritorio","1","Madera","Estandar","Mobiliario","naranja rojizo","--","1.00","0.57","0.80","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-13"]
+  Headers: ["nivel","aula_funcional","denominacion","cantidad","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_alta","fecha_compra","numero_documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro"]
+
+Row 14: aula_funcional='Aula 19', nivel='Secundaria', denominacion='Silla'
+  tmp array keys: nivel, aula_funcional, denominacion, cantidad, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_alta, fecha_compra, numero_documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro
+  CSV data: ["Secundaria","Aula 19","Silla","48","Madera","Estandar","Mobiliario","Marr\u00f3n","--","0.38","0.35","071","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-13"]
+  Headers: ["nivel","aula_funcional","denominacion","cantidad","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_alta","fecha_compra","numero_documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro"]
+
+Row 15: aula_funcional='Aula 19', nivel='Secundaria', denominacion='Mesa'
+  tmp array keys: nivel, aula_funcional, denominacion, cantidad, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_alta, fecha_compra, numero_documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro
+  CSV data: ["Secundaria","Aula 19","Mesa","44","Madera","Estandar","Mobiliario","Marr\u00f3n","--","0.60","0.48","0.72","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-13"]
+  Headers: ["nivel","aula_funcional","denominacion","cantidad","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_alta","fecha_compra","numero_documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro"]
+
+Row 16: aula_funcional='Aula 19', nivel='Secundaria', denominacion='Pizarra'
+  tmp array keys: nivel, aula_funcional, denominacion, cantidad, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_alta, fecha_compra, numero_documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro
+  CSV data: ["Secundaria","Aula 19","Pizarra","1","Melamina","Estandar","Mobiliario","Blanco","--","2.40","0","1.20","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-13"]
+  Headers: ["nivel","aula_funcional","denominacion","cantidad","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_alta","fecha_compra","numero_documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro"]
+
+Row 17: aula_funcional='Aula 19', nivel='Secundaria', denominacion='Estante'
+  tmp array keys: nivel, aula_funcional, denominacion, cantidad, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_alta, fecha_compra, numero_documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro
+  CSV data: ["Secundaria","Aula 19","Estante","1","Melamina","Grande","Mobiliario","Caf\u00e9","--","1.20","0.30","1.99","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-13"]
+  Headers: ["nivel","aula_funcional","denominacion","cantidad","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_alta","fecha_compra","numero_documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro"]
+
+Row 18: aula_funcional='Aula 19', nivel='Secundaria', denominacion='carpeta unipersonal'
+  tmp array keys: nivel, aula_funcional, denominacion, cantidad, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_alta, fecha_compra, numero_documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro
+  CSV data: ["Secundaria","Aula 19","carpeta unipersonal","1","Madera","Estandar","Mobiliario","Marr\u00f3n","--","0.79","0.58","0.82","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-13"]
+  Headers: ["nivel","aula_funcional","denominacion","cantidad","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_alta","fecha_compra","numero_documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro"]
+
+Row 19: aula_funcional='Aula 19', nivel='Secundaria', denominacion='Cañón multimedia'
+  tmp array keys: nivel, aula_funcional, denominacion, cantidad, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_alta, fecha_compra, numero_documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro
+  CSV data: ["Secundaria","Aula 19","Ca\u00f1\u00f3n multimedia","1","Epson","Estandar","Otro","negro","--","0.29","0.21","0","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-13"]
+  Headers: ["nivel","aula_funcional","denominacion","cantidad","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_alta","fecha_compra","numero_documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro"]
+
+[IMPORT MANUAL] Delimitador detectado: ',' - Conteos: {",":160,";":0,"\\t":0,"|":0}
+[IMPORT MANUAL] Encabezados detectados: ["Nivel","Aula Funcional","Denominaci\u00f3n","Marca","Modelo","Tipo","Color","Serie","Largo","Ancho","Alto","Documento de Alta","Fecha Compra","N\u00b0 Documento","Estado","Procedencia","Observaciones","Usuario Responsable","Ubicaci\u00f3n","Fecha Registro","Cantidad"]
+[IMPORT MANUAL] Delimitador detectado: ',' - Conteos: {",":160,";":0,"\\t":0,"|":0}
+[IMPORT MANUAL] Encabezados detectados: ["Nivel","Aula Funcional","Denominaci\u00f3n","Marca","Modelo","Tipo","Color","Serie","Largo","Ancho","Alto","Documento de Alta","Fecha Compra","N\u00b0 Documento","Estado","Procedencia","Observaciones","Usuario Responsable","Ubicaci\u00f3n","Fecha Registro","Cantidad"]
+Row 1: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Escritorio'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","Escritorio","Madera","Estandar","Mobiliario","Naranja rojizo","--","1.00","0.52","0.81","--","","--","Regular","Fe y Alegr\u00eda","Uno de los cajones no cierra bien","Yudit Rojas Rodriguez","Segundo piso","2025-12-10","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 2: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Mesas'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","Mesas","Madera","Estandar","Mobiliario","Marr\u00f3n","--","0.50","0.49","0.72","--","","--","Regular","Fe y Alegr\u00eda","--","Yudit Rojas Rodriguez","segundo piso","2025-12-10","31"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 3: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Sillas'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","Sillas","Madera","Estandar","Mobiliario","Marr\u00f3n","--","0.38","0.38","0.73","--","","--","Regular","Fe y Alegr\u00eda","--","Yudit Rojas Rodriguez","segundo piso","2025-12-10","32"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 4: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Estante pequeño'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","Estante peque\u00f1o","Madera","Peque\u00f1o","Mobiliario","Marr\u00f3n rojizo","--","1.02","0.24","1.52","--","","--","Regular","Fe y Alegr\u00eda","--","Yudit Rojas Rodriguez","segundo piso","2025-12-10","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 5: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Estante grande'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","Estante grande","Madera","Grande","Mobiliario","Marr\u00f3n rojizo","--","1.18","0.39","1.98","--","","--","Regular","Fe y Alegr\u00eda","Tablero superior est\u00e1 despegado en la esquina","Yudit Rojas Rodriguez","segundo piso","2025-12-10","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 6: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Cañón multimedia'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","Ca\u00f1\u00f3n multimedia","Epson","Estandar","Otro","Negro","--","0.29","0.21","0","--","","--","Regular","Fe y Alegr\u00eda","--","Yudit Rojas Rodriguez","segundo piso","2025-12-10","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 7: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Control'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","Control","Epson","Estandar","Otro","Blanco","--","0.14","0.05","0","--","","--","Regular","Fe y Alegr\u00eda","--","Yudit Rojas Rodriguez","segundo piso","2025-12-10","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 8: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Pizarra blanca'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","Pizarra blanca","Melamina","Estandar","Otro","Blanco","--","2.40","0","1.20","--","","--","Regular","Fe y Alegr\u00eda","--","Yudit Rojas Rodriguez","segundo piso","2025-12-10","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 9: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Tacho'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","Tacho","Pl\u00e1stico","Estandar","Material","Negro","--","0.27","0.27","0.38","--","","--","Malo","Fe y Alegr\u00eda","La tapa est\u00e1 rota","Yudit Rojas Rodriguez","segundo piso","2025-12-13","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 10: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Escobillón'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","Escobill\u00f3n","Madera","Estandar","Material","Marr\u00f3n","--","0.40","0.05","1.33","--","","--","Malo","Fe y Alegr\u00eda","Esta desgastado","Yudit Rojas Rodriguez","segundo piso","2025-12-10","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 11: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Recogedor'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","Recogedor","Pl\u00e1stico","Estandar","Material","Rojo","--","0.26","0.25","0.79","--","","--","Regular","Fe y Alegr\u00eda","--","Yudit Rojas Rodriguez","segundo piso","2025-12-10","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 12: aula_funcional='Aula 18', nivel='Secundaria', denominacion='carpeta unipersonal'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","carpeta unipersonal","Madera","Estandar","Mobiliario","Color madera","--","0.82","0.59","0.80","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-13","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 13: aula_funcional='Aula 19', nivel='Secundaria', denominacion='Escritorio'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 19","Escritorio","Madera","Estandar","Mobiliario","naranja rojizo","--","1.00","0.57","0.80","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-13","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 14: aula_funcional='Aula 19', nivel='Secundaria', denominacion='Silla'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 19","Silla","Madera","Estandar","Mobiliario","Marr\u00f3n","--","0.38","0.35","071","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-13","48"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 15: aula_funcional='Aula 19', nivel='Secundaria', denominacion='Mesa'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 19","Mesa","Madera","Estandar","Mobiliario","Marr\u00f3n","--","0.60","0.48","0.72","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-13","44"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 16: aula_funcional='Aula 19', nivel='Secundaria', denominacion='Pizarra'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 19","Pizarra","Melamina","Estandar","Mobiliario","Blanco","--","2.40","0","1.20","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-13","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 17: aula_funcional='Aula 19', nivel='Secundaria', denominacion='Estante'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 19","Estante","Melamina","Grande","Mobiliario","Caf\u00e9","--","1.20","0.30","1.99","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-13","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 18: aula_funcional='Aula 19', nivel='Secundaria', denominacion='carpeta unipersonal'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 19","carpeta unipersonal","Madera","Estandar","Mobiliario","Marr\u00f3n","--","0.79","0.58","0.82","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-13","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 19: aula_funcional='Aula 19', nivel='Secundaria', denominacion='Cañón multimedia'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 19","Ca\u00f1\u00f3n multimedia","Epson","Estandar","Otro","negro","--","0.29","0.21","0","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-13","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+[IMPORT MANUAL] Delimitador detectado: ',' - Conteos: {",":160,";":0,"\\t":0,"|":0}
+[IMPORT MANUAL] Encabezados detectados: ["Nivel","Aula Funcional","Denominaci\u00f3n","Marca","Modelo","Tipo","Color","Serie","Largo","Ancho","Alto","Documento de Alta","Fecha Compra","N\u00b0 Documento","Estado","Procedencia","Observaciones","Usuario Responsable","Ubicaci\u00f3n","Fecha Registro","Cantidad"]
+Row 1: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Escritorio'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","Escritorio","Madera","Estandar","Mobiliario","Naranja rojizo","--","1.00","0.52","0.81","--","","--","Regular","Fe y Alegr\u00eda","Uno de los cajones no cierra bien","Yudit Rojas Rodriguez","Segundo piso","2025-12-10","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 2: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Mesas'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","Mesas","Madera","Estandar","Mobiliario","Marr\u00f3n","--","0.50","0.49","0.72","--","","--","Regular","Fe y Alegr\u00eda","--","Yudit Rojas Rodriguez","segundo piso","2025-12-10","31"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 3: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Sillas'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","Sillas","Madera","Estandar","Mobiliario","Marr\u00f3n","--","0.38","0.38","0.73","--","","--","Regular","Fe y Alegr\u00eda","--","Yudit Rojas Rodriguez","segundo piso","2025-12-10","32"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 4: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Estante pequeño'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","Estante peque\u00f1o","Madera","Peque\u00f1o","Mobiliario","Marr\u00f3n rojizo","--","1.02","0.24","1.52","--","","--","Regular","Fe y Alegr\u00eda","--","Yudit Rojas Rodriguez","segundo piso","2025-12-10","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 5: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Estante grande'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","Estante grande","Madera","Grande","Mobiliario","Marr\u00f3n rojizo","--","1.18","0.39","1.98","--","","--","Regular","Fe y Alegr\u00eda","Tablero superior est\u00e1 despegado en la esquina","Yudit Rojas Rodriguez","segundo piso","2025-12-10","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 6: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Cañón multimedia'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","Ca\u00f1\u00f3n multimedia","Epson","Estandar","Otro","Negro","--","0.29","0.21","0","--","","--","Regular","Fe y Alegr\u00eda","--","Yudit Rojas Rodriguez","segundo piso","2025-12-10","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 7: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Control'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","Control","Epson","Estandar","Otro","Blanco","--","0.14","0.05","0","--","","--","Regular","Fe y Alegr\u00eda","--","Yudit Rojas Rodriguez","segundo piso","2025-12-10","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 8: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Pizarra blanca'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","Pizarra blanca","Melamina","Estandar","Otro","Blanco","--","2.40","0","1.20","--","","--","Regular","Fe y Alegr\u00eda","--","Yudit Rojas Rodriguez","segundo piso","2025-12-10","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 9: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Tacho'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","Tacho","Pl\u00e1stico","Estandar","Material","Negro","--","0.27","0.27","0.38","--","","--","Malo","Fe y Alegr\u00eda","La tapa est\u00e1 rota","Yudit Rojas Rodriguez","segundo piso","2025-12-13","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 10: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Escobillón'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","Escobill\u00f3n","Madera","Estandar","Material","Marr\u00f3n","--","0.40","0.05","1.33","--","","--","Malo","Fe y Alegr\u00eda","Esta desgastado","Yudit Rojas Rodriguez","segundo piso","2025-12-10","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 11: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Recogedor'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","Recogedor","Pl\u00e1stico","Estandar","Material","Rojo","--","0.26","0.25","0.79","--","","--","Regular","Fe y Alegr\u00eda","--","Yudit Rojas Rodriguez","segundo piso","2025-12-10","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 12: aula_funcional='Aula 18', nivel='Secundaria', denominacion='carpeta unipersonal'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","carpeta unipersonal","Madera","Estandar","Mobiliario","Color madera","--","0.82","0.59","0.80","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-13","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 13: aula_funcional='Aula 19', nivel='Secundaria', denominacion='Escritorio'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 19","Escritorio","Madera","Estandar","Mobiliario","naranja rojizo","--","1.00","0.57","0.80","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-13","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 14: aula_funcional='Aula 19', nivel='Secundaria', denominacion='Silla'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 19","Silla","Madera","Estandar","Mobiliario","Marr\u00f3n","--","0.38","0.35","071","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-13","48"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 15: aula_funcional='Aula 19', nivel='Secundaria', denominacion='Mesa'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 19","Mesa","Madera","Estandar","Mobiliario","Marr\u00f3n","--","0.60","0.48","0.72","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-13","44"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 16: aula_funcional='Aula 19', nivel='Secundaria', denominacion='Pizarra'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 19","Pizarra","Melamina","Estandar","Mobiliario","Blanco","--","2.40","0","1.20","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-13","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 17: aula_funcional='Aula 19', nivel='Secundaria', denominacion='Estante'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 19","Estante","Melamina","Grande","Mobiliario","Caf\u00e9","--","1.20","0.30","1.99","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-13","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 18: aula_funcional='Aula 19', nivel='Secundaria', denominacion='carpeta unipersonal'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 19","carpeta unipersonal","Madera","Estandar","Mobiliario","Marr\u00f3n","--","0.79","0.58","0.82","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-13","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 19: aula_funcional='Aula 19', nivel='Secundaria', denominacion='Cañón multimedia'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 19","Ca\u00f1\u00f3n multimedia","Epson","Estandar","Otro","negro","--","0.29","0.21","0","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-13","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+[IMPORT MANUAL] Delimitador detectado: ',' - Conteos: {",":160,";":0,"\\t":0,"|":0}
+[IMPORT MANUAL] Encabezados detectados: ["Nivel","Aula Funcional","Denominaci\u00f3n","Marca","Modelo","Tipo","Color","Serie","Largo","Ancho","Alto","Documento de Alta","Fecha Compra","N\u00b0 Documento","Estado","Procedencia","Observaciones","Usuario Responsable","Ubicaci\u00f3n","Fecha Registro","Cantidad"]
+Row 1: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Escritorio'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","Escritorio","Madera","Estandar","Mobiliario","Naranja rojizo","--","1.00","0.52","0.81","--","","--","Regular","Fe y Alegr\u00eda","Uno de los cajones no cierra bien","Yudit Rojas Rodriguez","Segundo piso","2025-12-10","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 2: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Mesas'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","Mesas","Madera","Estandar","Mobiliario","Marr\u00f3n","--","0.50","0.49","0.72","--","","--","Regular","Fe y Alegr\u00eda","--","Yudit Rojas Rodriguez","segundo piso","2025-12-10","31"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 3: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Sillas'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","Sillas","Madera","Estandar","Mobiliario","Marr\u00f3n","--","0.38","0.38","0.73","--","","--","Regular","Fe y Alegr\u00eda","--","Yudit Rojas Rodriguez","segundo piso","2025-12-10","32"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 4: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Estante pequeño'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","Estante peque\u00f1o","Madera","Peque\u00f1o","Mobiliario","Marr\u00f3n rojizo","--","1.02","0.24","1.52","--","","--","Regular","Fe y Alegr\u00eda","--","Yudit Rojas Rodriguez","segundo piso","2025-12-10","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 5: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Estante grande'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","Estante grande","Madera","Grande","Mobiliario","Marr\u00f3n rojizo","--","1.18","0.39","1.98","--","","--","Regular","Fe y Alegr\u00eda","Tablero superior est\u00e1 despegado en la esquina","Yudit Rojas Rodriguez","segundo piso","2025-12-10","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 6: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Cañón multimedia'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","Ca\u00f1\u00f3n multimedia","Epson","Estandar","Otro","Negro","--","0.29","0.21","0","--","","--","Regular","Fe y Alegr\u00eda","--","Yudit Rojas Rodriguez","segundo piso","2025-12-10","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 7: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Control'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","Control","Epson","Estandar","Otro","Blanco","--","0.14","0.05","0","--","","--","Regular","Fe y Alegr\u00eda","--","Yudit Rojas Rodriguez","segundo piso","2025-12-10","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 8: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Pizarra blanca'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","Pizarra blanca","Melamina","Estandar","Otro","Blanco","--","2.40","0","1.20","--","","--","Regular","Fe y Alegr\u00eda","--","Yudit Rojas Rodriguez","segundo piso","2025-12-10","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 9: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Tacho'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","Tacho","Pl\u00e1stico","Estandar","Material","Negro","--","0.27","0.27","0.38","--","","--","Malo","Fe y Alegr\u00eda","La tapa est\u00e1 rota","Yudit Rojas Rodriguez","segundo piso","2025-12-13","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 10: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Escobillón'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","Escobill\u00f3n","Madera","Estandar","Material","Marr\u00f3n","--","0.40","0.05","1.33","--","","--","Malo","Fe y Alegr\u00eda","Esta desgastado","Yudit Rojas Rodriguez","segundo piso","2025-12-10","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 11: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Recogedor'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","Recogedor","Pl\u00e1stico","Estandar","Material","Rojo","--","0.26","0.25","0.79","--","","--","Regular","Fe y Alegr\u00eda","--","Yudit Rojas Rodriguez","segundo piso","2025-12-10","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 12: aula_funcional='Aula 18', nivel='Secundaria', denominacion='carpeta unipersonal'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","carpeta unipersonal","Madera","Estandar","Mobiliario","Color madera","--","0.82","0.59","0.80","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-13","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 13: aula_funcional='Aula 19', nivel='Secundaria', denominacion='Escritorio'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 19","Escritorio","Madera","Estandar","Mobiliario","naranja rojizo","--","1.00","0.57","0.80","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-13","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 14: aula_funcional='Aula 19', nivel='Secundaria', denominacion='Silla'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 19","Silla","Madera","Estandar","Mobiliario","Marr\u00f3n","--","0.38","0.35","071","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-13","48"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 15: aula_funcional='Aula 19', nivel='Secundaria', denominacion='Mesa'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 19","Mesa","Madera","Estandar","Mobiliario","Marr\u00f3n","--","0.60","0.48","0.72","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-13","44"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 16: aula_funcional='Aula 19', nivel='Secundaria', denominacion='Pizarra'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 19","Pizarra","Melamina","Estandar","Mobiliario","Blanco","--","2.40","0","1.20","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-13","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 17: aula_funcional='Aula 19', nivel='Secundaria', denominacion='Estante'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 19","Estante","Melamina","Grande","Mobiliario","Caf\u00e9","--","1.20","0.30","1.99","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-13","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 18: aula_funcional='Aula 19', nivel='Secundaria', denominacion='carpeta unipersonal'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 19","carpeta unipersonal","Madera","Estandar","Mobiliario","Marr\u00f3n","--","0.79","0.58","0.82","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-13","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 19: aula_funcional='Aula 19', nivel='Secundaria', denominacion='Cañón multimedia'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 19","Ca\u00f1\u00f3n multimedia","Epson","Estandar","Otro","negro","--","0.29","0.21","0","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-13","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+[IMPORT MANUAL] Delimitador detectado: ',' - Conteos: {",":160,";":0,"\\t":0,"|":0}
+[IMPORT MANUAL] Encabezados detectados: ["Nivel","Aula Funcional","Denominaci\u00f3n","Marca","Modelo","Tipo","Color","Serie","Largo","Ancho","Alto","Documento de Alta","Fecha Compra","N\u00b0 Documento","Estado","Procedencia","Observaciones","Usuario Responsable","Ubicaci\u00f3n","Fecha Registro","Cantidad"]
+Row 1: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Escritorio'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","Escritorio","Madera","Estandar","Mobiliario","Naranja rojizo","--","1.00","0.52","0.81","--","","--","Regular","Fe y Alegr\u00eda","Uno de los cajones no cierra bien","Yudit Rojas Rodriguez","Segundo piso","2025-12-10","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 2: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Mesas'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","Mesas","Madera","Estandar","Mobiliario","Marr\u00f3n","--","0.50","0.49","0.72","--","","--","Regular","Fe y Alegr\u00eda","--","Yudit Rojas Rodriguez","segundo piso","2025-12-10","31"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 3: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Sillas'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","Sillas","Madera","Estandar","Mobiliario","Marr\u00f3n","--","0.38","0.38","0.73","--","","--","Regular","Fe y Alegr\u00eda","--","Yudit Rojas Rodriguez","segundo piso","2025-12-10","32"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 4: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Estante pequeño'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","Estante peque\u00f1o","Madera","Peque\u00f1o","Mobiliario","Marr\u00f3n rojizo","--","1.02","0.24","1.52","--","","--","Regular","Fe y Alegr\u00eda","--","Yudit Rojas Rodriguez","segundo piso","2025-12-10","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 5: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Estante grande'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","Estante grande","Madera","Grande","Mobiliario","Marr\u00f3n rojizo","--","1.18","0.39","1.98","--","","--","Regular","Fe y Alegr\u00eda","Tablero superior est\u00e1 despegado en la esquina","Yudit Rojas Rodriguez","segundo piso","2025-12-10","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 6: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Cañón multimedia'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","Ca\u00f1\u00f3n multimedia","Epson","Estandar","Otro","Negro","--","0.29","0.21","0","--","","--","Regular","Fe y Alegr\u00eda","--","Yudit Rojas Rodriguez","segundo piso","2025-12-10","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 7: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Control'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","Control","Epson","Estandar","Otro","Blanco","--","0.14","0.05","0","--","","--","Regular","Fe y Alegr\u00eda","--","Yudit Rojas Rodriguez","segundo piso","2025-12-10","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 8: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Pizarra blanca'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","Pizarra blanca","Melamina","Estandar","Otro","Blanco","--","2.40","0","1.20","--","","--","Regular","Fe y Alegr\u00eda","--","Yudit Rojas Rodriguez","segundo piso","2025-12-10","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 9: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Tacho'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","Tacho","Pl\u00e1stico","Estandar","Material","Negro","--","0.27","0.27","0.38","--","","--","Malo","Fe y Alegr\u00eda","La tapa est\u00e1 rota","Yudit Rojas Rodriguez","segundo piso","2025-12-13","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 10: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Escobillón'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","Escobill\u00f3n","Madera","Estandar","Material","Marr\u00f3n","--","0.40","0.05","1.33","--","","--","Malo","Fe y Alegr\u00eda","Esta desgastado","Yudit Rojas Rodriguez","segundo piso","2025-12-10","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 11: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Recogedor'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","Recogedor","Pl\u00e1stico","Estandar","Material","Rojo","--","0.26","0.25","0.79","--","","--","Regular","Fe y Alegr\u00eda","--","Yudit Rojas Rodriguez","segundo piso","2025-12-10","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 12: aula_funcional='Aula 18', nivel='Secundaria', denominacion='carpeta unipersonal'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","carpeta unipersonal","Madera","Estandar","Mobiliario","Color madera","--","0.82","0.59","0.80","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-13","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 13: aula_funcional='Aula 19', nivel='Secundaria', denominacion='Escritorio'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 19","Escritorio","Madera","Estandar","Mobiliario","naranja rojizo","--","1.00","0.57","0.80","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-13","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 14: aula_funcional='Aula 19', nivel='Secundaria', denominacion='Silla'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 19","Silla","Madera","Estandar","Mobiliario","Marr\u00f3n","--","0.38","0.35","071","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-13","48"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 15: aula_funcional='Aula 19', nivel='Secundaria', denominacion='Mesa'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 19","Mesa","Madera","Estandar","Mobiliario","Marr\u00f3n","--","0.60","0.48","0.72","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-13","44"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 16: aula_funcional='Aula 19', nivel='Secundaria', denominacion='Pizarra'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 19","Pizarra","Melamina","Estandar","Mobiliario","Blanco","--","2.40","0","1.20","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-13","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 17: aula_funcional='Aula 19', nivel='Secundaria', denominacion='Estante'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 19","Estante","Melamina","Grande","Mobiliario","Caf\u00e9","--","1.20","0.30","1.99","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-13","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 18: aula_funcional='Aula 19', nivel='Secundaria', denominacion='carpeta unipersonal'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 19","carpeta unipersonal","Madera","Estandar","Mobiliario","Marr\u00f3n","--","0.79","0.58","0.82","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-13","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 19: aula_funcional='Aula 19', nivel='Secundaria', denominacion='Cañón multimedia'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 19","Ca\u00f1\u00f3n multimedia","Epson","Estandar","Otro","negro","--","0.29","0.21","0","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-13","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+[IMPORT MANUAL] Delimitador detectado: ',' - Conteos: {",":160,";":0,"\\t":0,"|":0}
+[IMPORT MANUAL] Encabezados detectados: ["nivel","aula_funcional","denominacion","cantidad","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_alta","fecha_compra","numero_documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro"]
+[IMPORT MANUAL] Delimitador detectado: ',' - Conteos: {",":160,";":0,"\\t":0,"|":0}
+[IMPORT MANUAL] Encabezados detectados: ["Nivel","Aula Funcional","Denominaci\u00f3n","Marca","Modelo","Tipo","Color","Serie","Largo","Ancho","Alto","Documento de Alta","Fecha Compra","N\u00b0 Documento","Estado","Procedencia","Observaciones","Usuario Responsable","Ubicaci\u00f3n","Fecha Registro","Cantidad"]
+[IMPORT MANUAL] Delimitador detectado: ',' - Conteos: {",":160,";":0,"\\t":0,"|":0}
+[IMPORT MANUAL] Encabezados detectados: ["Nivel","Aula Funcional","Denominaci\u00f3n","Marca","Modelo","Tipo","Color","Serie","Largo","Ancho","Alto","Documento de Alta","Fecha Compra","N\u00b0 Documento","Estado","Procedencia","Observaciones","Usuario Responsable","Ubicaci\u00f3n","Fecha Registro","Cantidad"]
+Row 1: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Escritorio'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","Escritorio","Madera","Estandar","Mobiliario","Naranja rojizo","--","1.00","0.52","0.81","--","","--","Regular","Fe y Alegr\u00eda","Uno de los cajones no cierra bien","Yudit Rojas Rodriguez","Segundo piso","2025-12-10","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 2: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Mesas'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","Mesas","Madera","Estandar","Mobiliario","Marr\u00f3n","--","0.50","0.49","0.72","--","","--","Regular","Fe y Alegr\u00eda","--","Yudit Rojas Rodriguez","segundo piso","2025-12-10","31"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 3: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Sillas'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","Sillas","Madera","Estandar","Mobiliario","Marr\u00f3n","--","0.38","0.38","0.73","--","","--","Regular","Fe y Alegr\u00eda","--","Yudit Rojas Rodriguez","segundo piso","2025-12-10","32"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 4: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Estante pequeño'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","Estante peque\u00f1o","Madera","Peque\u00f1o","Mobiliario","Marr\u00f3n rojizo","--","1.02","0.24","1.52","--","","--","Regular","Fe y Alegr\u00eda","--","Yudit Rojas Rodriguez","segundo piso","2025-12-10","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 5: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Estante grande'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","Estante grande","Madera","Grande","Mobiliario","Marr\u00f3n rojizo","--","1.18","0.39","1.98","--","","--","Regular","Fe y Alegr\u00eda","Tablero superior est\u00e1 despegado en la esquina","Yudit Rojas Rodriguez","segundo piso","2025-12-10","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 6: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Cañón multimedia'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","Ca\u00f1\u00f3n multimedia","Epson","Estandar","Otro","Negro","--","0.29","0.21","0","--","","--","Regular","Fe y Alegr\u00eda","--","Yudit Rojas Rodriguez","segundo piso","2025-12-10","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 7: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Control'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","Control","Epson","Estandar","Otro","Blanco","--","0.14","0.05","0","--","","--","Regular","Fe y Alegr\u00eda","--","Yudit Rojas Rodriguez","segundo piso","2025-12-10","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 8: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Pizarra blanca'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","Pizarra blanca","Melamina","Estandar","Otro","Blanco","--","2.40","0","1.20","--","","--","Regular","Fe y Alegr\u00eda","--","Yudit Rojas Rodriguez","segundo piso","2025-12-10","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 9: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Tacho'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","Tacho","Pl\u00e1stico","Estandar","Material","Negro","--","0.27","0.27","0.38","--","","--","Malo","Fe y Alegr\u00eda","La tapa est\u00e1 rota","Yudit Rojas Rodriguez","segundo piso","2025-12-13","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 10: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Escobillón'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","Escobill\u00f3n","Madera","Estandar","Material","Marr\u00f3n","--","0.40","0.05","1.33","--","","--","Malo","Fe y Alegr\u00eda","Esta desgastado","Yudit Rojas Rodriguez","segundo piso","2025-12-10","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 11: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Recogedor'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","Recogedor","Pl\u00e1stico","Estandar","Material","Rojo","--","0.26","0.25","0.79","--","","--","Regular","Fe y Alegr\u00eda","--","Yudit Rojas Rodriguez","segundo piso","2025-12-10","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 12: aula_funcional='Aula 18', nivel='Secundaria', denominacion='carpeta unipersonal'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","carpeta unipersonal","Madera","Estandar","Mobiliario","Color madera","--","0.82","0.59","0.80","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-13","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 13: aula_funcional='Aula 19', nivel='Secundaria', denominacion='Escritorio'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 19","Escritorio","Madera","Estandar","Mobiliario","naranja rojizo","--","1.00","0.57","0.80","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-13","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 14: aula_funcional='Aula 19', nivel='Secundaria', denominacion='Silla'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 19","Silla","Madera","Estandar","Mobiliario","Marr\u00f3n","--","0.38","0.35","071","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-13","48"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 15: aula_funcional='Aula 19', nivel='Secundaria', denominacion='Mesa'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 19","Mesa","Madera","Estandar","Mobiliario","Marr\u00f3n","--","0.60","0.48","0.72","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-13","44"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 16: aula_funcional='Aula 19', nivel='Secundaria', denominacion='Pizarra'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 19","Pizarra","Melamina","Estandar","Mobiliario","Blanco","--","2.40","0","1.20","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-13","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 17: aula_funcional='Aula 19', nivel='Secundaria', denominacion='Estante'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 19","Estante","Melamina","Grande","Mobiliario","Caf\u00e9","--","1.20","0.30","1.99","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-13","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 18: aula_funcional='Aula 19', nivel='Secundaria', denominacion='carpeta unipersonal'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 19","carpeta unipersonal","Madera","Estandar","Mobiliario","Marr\u00f3n","--","0.79","0.58","0.82","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-13","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 19: aula_funcional='Aula 19', nivel='Secundaria', denominacion='Cañón multimedia'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 19","Ca\u00f1\u00f3n multimedia","Epson","Estandar","Otro","negro","--","0.29","0.21","0","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-13","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 20: aula_funcional='Aula 19', nivel='Secundaria', denominacion='CPU'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 19","CPU","--","Estandar","Otro","Negro","--","0","0.18","0.40","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-21","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 21: aula_funcional='Aula 19', nivel='Secundaria', denominacion='Teclado'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 19","Teclado","--","Estandar","Otro","Negro","--","0.40","0.17","0","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-21","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 22: aula_funcional='Aula 19', nivel='Secundaria', denominacion='Monitor'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 19","Monitor","--","Estandar","Otro","Negro","--","0","0.45","0.28","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-21","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+[IMPORT MANUAL] Delimitador detectado: ',' - Conteos: {",":160,";":0,"\\t":0,"|":0}
+[IMPORT MANUAL] Encabezados detectados: ["nivel","aula_funcional","denominacion","cantidad","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_alta","fecha_compra","numero_documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro"]
+[IMPORT MANUAL] Delimitador detectado: ',' - Conteos: {",":160,";":0,"\\t":0,"|":0}
+[IMPORT MANUAL] Encabezados detectados: ["nivel","aula_funcional","denominacion","cantidad","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_alta","fecha_compra","numero_documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro"]
+Row 1: aula_funcional='2A', nivel='Secundaria', denominacion='Escritorio'
+  tmp array keys: nivel, aula_funcional, denominacion, cantidad, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_alta, fecha_compra, numero_documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro
+  CSV data: ["Secundaria","2A","Escritorio","1","madera","estandar","Mobiliario","marr\u00f3n","o","0.97","0.58","0.82","0","","0","Regular","Fe y Alegr\u00eda","Tiene una abertura en la parte inferior de las patas y los cajones no corren bien","Docentes","Aula de 2do A","2025-12-02"]
+  Headers: ["nivel","aula_funcional","denominacion","cantidad","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_alta","fecha_compra","numero_documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro"]
+
+Row 2: aula_funcional='2A', nivel='Secundaria', denominacion='Silla de docente'
+  tmp array keys: nivel, aula_funcional, denominacion, cantidad, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_alta, fecha_compra, numero_documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro
+  CSV data: ["Secundaria","2A","Silla de docente","1","madera","estandar","Mobiliario","marr\u00f3n","o","0.40","0.30","0.80","0","","0","Bueno","Fe y Alegr\u00eda","","Docentes","Aula de 2do A","2025-12-02"]
+  Headers: ["nivel","aula_funcional","denominacion","cantidad","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_alta","fecha_compra","numero_documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro"]
+
+Row 3: aula_funcional='2A', nivel='Secundaria', denominacion='Mesas de estudiantes'
+  tmp array keys: nivel, aula_funcional, denominacion, cantidad, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_alta, fecha_compra, numero_documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro
+  CSV data: ["Secundaria","2A","Mesas de estudiantes","26","madera","estandar","Mobiliario","marr\u00f3n","o","0.65","0.45","0.73","0","","0","Regular","Fe y Alegr\u00eda","13 mesas tienen movimiento","Estudiantes","Aula de 2do A","2025-12-02"]
+  Headers: ["nivel","aula_funcional","denominacion","cantidad","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_alta","fecha_compra","numero_documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro"]
+
+[IMPORT MANUAL] Delimitador detectado: ',' - Conteos: {",":160,";":0,"\\t":0,"|":0}
+[IMPORT MANUAL] Encabezados detectados: ["nivel","aula_funcional","denominacion","cantidad","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_alta","fecha_compra","numero_documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro"]
+[IMPORT MANUAL] Delimitador detectado: ',' - Conteos: {",":160,";":0,"\\t":0,"|":0}
+[IMPORT MANUAL] Encabezados detectados: ["nivel","aula_funcional","denominacion","cantidad","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_alta","fecha_compra","numero_documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro"]
+Row 1: aula_funcional='Atencion a Padres de Familia Aula 14', nivel='Secundaria', denominacion='Mesa de madera'
+  tmp array keys: nivel, aula_funcional, denominacion, cantidad, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_alta, fecha_compra, numero_documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro
+  CSV data: ["Secundaria","Atencion a Padres de Familia Aula 14","Mesa de madera","14","madera","mesa de madera ","Mobiliario","Marron ","","0.40","35","85","","","","Bueno","UGEL","mesas ","Jheisson Arizabal","aula de atencion a padres","2025-12-19"]
+  Headers: ["nivel","aula_funcional","denominacion","cantidad","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_alta","fecha_compra","numero_documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro"]
+
+Row 2: aula_funcional='Atencion a Padres de Familia Aula 14', nivel='Secundaria', denominacion='mesa con silla todo en uno'
+  tmp array keys: nivel, aula_funcional, denominacion, cantidad, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_alta, fecha_compra, numero_documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro
+  CSV data: ["Secundaria","Atencion a Padres de Familia Aula 14","mesa con silla todo en uno","6","madera","mesa de madera ","Mobiliario","Marron ","","0.40","35","85","","","","Bueno","UGEL","mesas ","Jheisson Arizabal","aula de atencion a padres","2025-12-19"]
+  Headers: ["nivel","aula_funcional","denominacion","cantidad","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_alta","fecha_compra","numero_documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro"]
+
+Row 3: aula_funcional='Atencion a Padres de Familia Aula 14', nivel='Secundaria', denominacion='Silla de madera'
+  tmp array keys: nivel, aula_funcional, denominacion, cantidad, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_alta, fecha_compra, numero_documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro
+  CSV data: ["Secundaria","Atencion a Padres de Familia Aula 14","Silla de madera","10","madera","silla de madera con espaldar","Mobiliario","Marron ","","0.40","35","85","","","","Bueno","UGEL","","Jheisson Arizabal","aula de atencion a padres","2025-12-19"]
+  Headers: ["nivel","aula_funcional","denominacion","cantidad","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_alta","fecha_compra","numero_documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro"]
+
+[IMPORT MANUAL] Delimitador detectado: ',' - Conteos: {",":160,";":0,"\\t":0,"|":0}
+[IMPORT MANUAL] Encabezados detectados: ["nivel","aula_funcional","denominacion","cantidad","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_alta","fecha_compra","numero_documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro"]
+[IMPORT MANUAL] Delimitador detectado: ',' - Conteos: {",":160,";":0,"\\t":0,"|":0}
+[IMPORT MANUAL] Encabezados detectados: ["Nivel","Aula Funcional","Denominaci\u00f3n","Marca","Modelo","Tipo","Color","Serie","Largo","Ancho","Alto","Documento de Alta","Fecha Compra","N\u00b0 Documento","Estado","Procedencia","Observaciones","Usuario Responsable","Ubicaci\u00f3n","Fecha Registro","Cantidad"]
+[IMPORT MANUAL] Delimitador detectado: ',' - Conteos: {",":160,";":0,"\\t":0,"|":0}
+[IMPORT MANUAL] Encabezados detectados: ["Nivel","Aula Funcional","Denominaci\u00f3n","Marca","Modelo","Tipo","Color","Serie","Largo","Ancho","Alto","Documento de Alta","Fecha Compra","N\u00b0 Documento","Estado","Procedencia","Observaciones","Usuario Responsable","Ubicaci\u00f3n","Fecha Registro","Cantidad"]
+Row 1: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Escritorio'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","Escritorio","Madera","Estandar","Mobiliario","Naranja rojizo","--","1.00","0.52","0.81","--","","--","Regular","Fe y Alegr\u00eda","Uno de los cajones no cierra bien","Yudit Rojas Rodriguez","Segundo piso","2025-12-10","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 2: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Mesas'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","Mesas","Madera","Estandar","Mobiliario","Marr\u00f3n","--","0.50","0.49","0.72","--","","--","Regular","Fe y Alegr\u00eda","--","Yudit Rojas Rodriguez","segundo piso","2025-12-10","31"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 3: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Sillas'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","Sillas","Madera","Estandar","Mobiliario","Marr\u00f3n","--","0.38","0.38","0.73","--","","--","Regular","Fe y Alegr\u00eda","--","Yudit Rojas Rodriguez","segundo piso","2025-12-10","32"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 4: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Estante pequeño'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","Estante peque\u00f1o","Madera","Peque\u00f1o","Mobiliario","Marr\u00f3n rojizo","--","1.02","0.24","1.52","--","","--","Regular","Fe y Alegr\u00eda","--","Yudit Rojas Rodriguez","segundo piso","2025-12-10","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 5: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Estante grande'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","Estante grande","Madera","Grande","Mobiliario","Marr\u00f3n rojizo","--","1.18","0.39","1.98","--","","--","Regular","Fe y Alegr\u00eda","Tablero superior est\u00e1 despegado en la esquina","Yudit Rojas Rodriguez","segundo piso","2025-12-10","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 6: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Cañón multimedia'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","Ca\u00f1\u00f3n multimedia","Epson","Estandar","Otro","Negro","--","0.29","0.21","0","--","","--","Regular","Fe y Alegr\u00eda","--","Yudit Rojas Rodriguez","segundo piso","2025-12-10","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 7: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Control'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","Control","Epson","Estandar","Otro","Blanco","--","0.14","0.05","0","--","","--","Regular","Fe y Alegr\u00eda","--","Yudit Rojas Rodriguez","segundo piso","2025-12-10","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 8: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Pizarra blanca'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","Pizarra blanca","Melamina","Estandar","Otro","Blanco","--","2.40","0","1.20","--","","--","Regular","Fe y Alegr\u00eda","--","Yudit Rojas Rodriguez","segundo piso","2025-12-10","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 9: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Tacho'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","Tacho","Pl\u00e1stico","Estandar","Material","Negro","--","0.27","0.27","0.38","--","","--","Malo","Fe y Alegr\u00eda","La tapa est\u00e1 rota","Yudit Rojas Rodriguez","segundo piso","2025-12-13","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 10: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Escobillón'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","Escobill\u00f3n","Madera","Estandar","Material","Marr\u00f3n","--","0.40","0.05","1.33","--","","--","Malo","Fe y Alegr\u00eda","Esta desgastado","Yudit Rojas Rodriguez","segundo piso","2025-12-10","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 11: aula_funcional='Aula 18', nivel='Secundaria', denominacion='Recogedor'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","Recogedor","Pl\u00e1stico","Estandar","Material","Rojo","--","0.26","0.25","0.79","--","","--","Regular","Fe y Alegr\u00eda","--","Yudit Rojas Rodriguez","segundo piso","2025-12-10","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 12: aula_funcional='Aula 18', nivel='Secundaria', denominacion='carpeta unipersonal'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 18","carpeta unipersonal","Madera","Estandar","Mobiliario","Color madera","--","0.82","0.59","0.80","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-13","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 13: aula_funcional='Aula 19', nivel='Secundaria', denominacion='Escritorio'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 19","Escritorio","Madera","Estandar","Mobiliario","naranja rojizo","--","1.00","0.57","0.80","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-13","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 14: aula_funcional='Aula 19', nivel='Secundaria', denominacion='Silla'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 19","Silla","Madera","Estandar","Mobiliario","Marr\u00f3n","--","0.38","0.35","071","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-13","48"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 15: aula_funcional='Aula 19', nivel='Secundaria', denominacion='Mesa'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 19","Mesa","Madera","Estandar","Mobiliario","Marr\u00f3n","--","0.60","0.48","0.72","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-13","44"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 16: aula_funcional='Aula 19', nivel='Secundaria', denominacion='Pizarra'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 19","Pizarra","Melamina","Estandar","Mobiliario","Blanco","--","2.40","0","1.20","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-13","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 17: aula_funcional='Aula 19', nivel='Secundaria', denominacion='Estante'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 19","Estante","Melamina","Grande","Mobiliario","Caf\u00e9","--","1.20","0.30","1.99","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-13","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 18: aula_funcional='Aula 19', nivel='Secundaria', denominacion='carpeta unipersonal'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 19","carpeta unipersonal","Madera","Estandar","Mobiliario","Marr\u00f3n","--","0.79","0.58","0.82","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-13","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 19: aula_funcional='Aula 19', nivel='Secundaria', denominacion='Cañón multimedia'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 19","Ca\u00f1\u00f3n multimedia","Epson","Estandar","Otro","negro","--","0.29","0.21","0","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-13","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 20: aula_funcional='Aula 19', nivel='Secundaria', denominacion='CPU'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 19","CPU","--","Estandar","Otro","Negro","--","0","0.18","0.40","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-21","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 21: aula_funcional='Aula 19', nivel='Secundaria', denominacion='Teclado'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 19","Teclado","--","Estandar","Otro","Negro","--","0.40","0.17","0","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-21","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 22: aula_funcional='Aula 19', nivel='Secundaria', denominacion='Monitor'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 19","Monitor","--","Estandar","Otro","Negro","--","0","0.45","0.28","--","","--","Regular","Fe y Alegr\u00eda","","Yudit Rojas Rodriguez","segundo piso","2025-12-21","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+[IMPORT MANUAL] Delimitador detectado: ',' - Conteos: {",":160,";":0,"\\t":0,"|":0}
+[IMPORT MANUAL] Encabezados detectados: ["Nivel","Aula Funcional","Denominaci\u00f3n","Marca","Modelo","Tipo","Color","Serie","Largo","Ancho","Alto","Documento de Alta","Fecha Compra","N\u00b0 Documento","Estado","Procedencia","Observaciones","Usuario Responsable","Ubicaci\u00f3n","Fecha Registro","Cantidad"]
+[IMPORT MANUAL] Delimitador detectado: ',' - Conteos: {",":160,";":0,"\\t":0,"|":0}
+[IMPORT MANUAL] Encabezados detectados: ["Nivel","Aula Funcional","Denominaci\u00f3n","Marca","Modelo","Tipo","Color","Serie","Largo","Ancho","Alto","Documento de Alta","Fecha Compra","N\u00b0 Documento","Estado","Procedencia","Observaciones","Usuario Responsable","Ubicaci\u00f3n","Fecha Registro","Cantidad"]
+Row 1: aula_funcional='Cocina', nivel='Secundaria', denominacion='Tina de plástico '
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Cocina","Tina de pl\u00e1stico ","Sudamericana","Grande y mediano","Otro","Rojo y Azul","000","000","000","000","000","","000","Bueno","Otra","Sin detalles","Iskra","Cocina","2025-12-02","3"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 2: aula_funcional='Cocina', nivel='Secundaria', denominacion='Tina'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Cocina","Tina","000","Mediano","Otro","Rojo","000","000","000","000","000","","000","Bueno","Otra","000","Iskra","Cocina","2025-12-02","4"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 3: aula_funcional='Cocina', nivel='Secundaria', denominacion='Balde de plástico '
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Cocina","Balde de pl\u00e1stico ","000","000","Otro","Transparente","000","000","000","000","000","","000","Bueno","Otra","000","Iskra Ccarhuarupay ","Cocina","2025-12-02","6"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+[IMPORT MANUAL] Delimitador detectado: ',' - Conteos: {",":160,";":0,"\\t":0,"|":0}
+[IMPORT MANUAL] Encabezados detectados: ["Nivel","Aula Funcional","Denominaci\u00f3n","Marca","Modelo","Tipo","Color","Serie","Largo","Ancho","Alto","Documento de Alta","Fecha Compra","N\u00b0 Documento","Estado","Procedencia","Observaciones","Usuario Responsable","Ubicaci\u00f3n","Fecha Registro","Cantidad"]
+[IMPORT MANUAL] Delimitador detectado: ',' - Conteos: {",":160,";":0,"\\t":0,"|":0}
+[IMPORT MANUAL] Encabezados detectados: ["Nivel","Aula Funcional","Denominaci\u00f3n","Marca","Modelo","Tipo","Color","Serie","Largo","Ancho","Alto","Documento de Alta","Fecha Compra","N\u00b0 Documento","Estado","Procedencia","Observaciones","Usuario Responsable","Ubicaci\u00f3n","Fecha Registro","Cantidad"]
+[IMPORT MANUAL] Delimitador detectado: ',' - Conteos: {",":160,";":0,"\\t":0,"|":0}
+[IMPORT MANUAL] Encabezados detectados: ["Nivel","Aula Funcional","Denominaci\u00f3n","Marca","Modelo","Tipo","Color","Serie","Largo","Ancho","Alto","Documento de Alta","Fecha Compra","N\u00b0 Documento","Estado","Procedencia","Observaciones","Usuario Responsable","Ubicaci\u00f3n","Fecha Registro","Cantidad"]
+[IMPORT MANUAL] Delimitador detectado: ',' - Conteos: {",":160,";":0,"\\t":0,"|":0}
+[IMPORT MANUAL] Encabezados detectados: ["Nivel","Aula Funcional","Denominaci\u00f3n","Marca","Modelo","Tipo","Color","Serie","Largo","Ancho","Alto","Documento de Alta","Fecha Compra","N\u00b0 Documento","Estado","Procedencia","Observaciones","Usuario Responsable","Ubicaci\u00f3n","Fecha Registro","Cantidad"]
+[IMPORT MANUAL] Delimitador detectado: ',' - Conteos: {",":160,";":0,"\\t":0,"|":0}
+[IMPORT MANUAL] Encabezados detectados: ["Nivel","Aula Funcional","Denominaci\u00f3n","Marca","Modelo","Tipo","Color","Serie","Largo","Ancho","Alto","Documento de Alta","Fecha Compra","N\u00b0 Documento","Estado","Procedencia","Observaciones","Usuario Responsable","Ubicaci\u00f3n","Fecha Registro","Cantidad"]
+[IMPORT MANUAL] Delimitador detectado: ',' - Conteos: {",":160,";":0,"\\t":0,"|":0}
+[IMPORT MANUAL] Encabezados detectados: ["Nivel","Aula Funcional","Denominaci\u00f3n","Marca","Modelo","Tipo","Color","Serie","Largo","Ancho","Alto","Documento de Alta","Fecha Compra","N\u00b0 Documento","Estado","Procedencia","Observaciones","Usuario Responsable","Ubicaci\u00f3n","Fecha Registro","Cantidad"]
+[IMPORT MANUAL] Delimitador detectado: ',' - Conteos: {",":160,";":0,"\\t":0,"|":0}
+[IMPORT MANUAL] Encabezados detectados: ["Nivel","Aula Funcional","Denominaci\u00f3n","Marca","Modelo","Tipo","Color","Serie","Largo","Ancho","Alto","Documento de Alta","Fecha Compra","N\u00b0 Documento","Estado","Procedencia","Observaciones","Usuario Responsable","Ubicaci\u00f3n","Fecha Registro","Cantidad"]
+Row 1: aula_funcional='Capilla', nivel='Secundaria', denominacion='Silla de madera con espaldar'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Capilla","Silla de madera con espaldar","Madera Per\u00fa","Personal standar","Mobiliario","Nogal cl\u00e1sico","00","0.75","0.52","0.75","00","","00","Bueno","Fe y Alegr\u00eda","Buen estado","Carmen Yanit Condori Mu\u00f1iz","Capilla","2025-12-10","80"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 2: aula_funcional='Capilla', nivel='Secundaria', denominacion='Mesa de madera'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Capilla","Mesa de madera","Madera Per\u00fa","Personal standar","Mobiliario","Nogal cl\u00e1sico","00","0.65","0.47","0.65","00","","00","Bueno","Fe y Alegr\u00eda","Buen estado","Carmen Yanit Condori Mu\u00f1iz","Capilla","2025-12-10","4"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 3: aula_funcional='Capilla', nivel='Secundaria', denominacion='Florero de metal'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Capilla","Florero de metal","metal","00","Material","Plateado","00","0.0","0.0","0.0","00","","00","Bueno","Fe y Alegr\u00eda","Buen estado","Carmen Yanit Condori Mu\u00f1iz","Capilla","2025-12-10","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+[IMPORT MANUAL] Delimitador detectado: ',' - Conteos: {",":160,";":0,"\\t":0,"|":0}
+[IMPORT MANUAL] Encabezados detectados: ["Nivel","Aula Funcional","Denominaci\u00f3n","Marca","Modelo","Tipo","Color","Serie","Largo","Ancho","Alto","Documento de Alta","Fecha Compra","N\u00b0 Documento","Estado","Procedencia","Observaciones","Usuario Responsable","Ubicaci\u00f3n","Fecha Registro","Cantidad"]
+[IMPORT MANUAL] Delimitador detectado: ',' - Conteos: {",":160,";":0,"\\t":0,"|":0}
+[IMPORT MANUAL] Encabezados detectados: ["Nivel","Aula Funcional","Denominaci\u00f3n","Marca","Modelo","Tipo","Color","Serie","Largo","Ancho","Alto","Documento de Alta","Fecha Compra","N\u00b0 Documento","Estado","Procedencia","Observaciones","Usuario Responsable","Ubicaci\u00f3n","Fecha Registro","Cantidad"]
+Row 1: aula_funcional='Aula 3', nivel='Secundaria', denominacion='PROYECTOR '
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 3","PROYECTOR ","SONY","VIEWSONIC","Equipo","BLANCO","","","","","","","","Regular","Fe y Alegr\u00eda","","PATTY","AULA 03","2025-12-24","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 2: aula_funcional='Aula 3', nivel='Secundaria', denominacion='LAPTOP'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 3","LAPTOP","LENOVO","LENOVO","Equipo","NEGRO","","","","","","","","Regular","UGEL","01 le falta el protector de la lectora de CD","PATTY","AULA 03","2025-12-24","30"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 3: aula_funcional='Aula 3', nivel='Secundaria', denominacion='CARGADOR DE LAPTOP '
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 3","CARGADOR DE LAPTOP ","LENOVO","","Equipo","","","","","","","","","Bueno","UGEL","","PATTY","AULA 03","2025-12-24","30"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+[IMPORT MANUAL] Delimitador detectado: ',' - Conteos: {",":160,";":0,"\\t":0,"|":0}
+[IMPORT MANUAL] Encabezados detectados: ["Nivel","Aula Funcional","Denominaci\u00f3n","Marca","Modelo","Tipo","Color","Serie","Largo","Ancho","Alto","Documento de Alta","Fecha Compra","N\u00b0 Documento","Estado","Procedencia","Observaciones","Usuario Responsable","Ubicaci\u00f3n","Fecha Registro","Cantidad"]
+Row 1: aula_funcional='Aula 3', nivel='Secundaria', denominacion='PROYECTOR '
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 3","PROYECTOR ","SONY","VIEWSONIC","Equipo","BLANCO","","","","","","","","Regular","Fe y Alegr\u00eda","","PATTY","AULA 03","2025-12-24","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 2: aula_funcional='Aula 3', nivel='Secundaria', denominacion='LAPTOP'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 3","LAPTOP","LENOVO","LENOVO","Equipo","NEGRO","","","","","","","","Regular","UGEL","01 le falta el protector de la lectora de CD","PATTY","AULA 03","2025-12-24","30"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 3: aula_funcional='Aula 3', nivel='Secundaria', denominacion='CARGADOR DE LAPTOP '
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 3","CARGADOR DE LAPTOP ","LENOVO","","Equipo","","","","","","","","","Bueno","UGEL","","PATTY","AULA 03","2025-12-24","30"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+[IMPORT MANUAL] Delimitador detectado: ',' - Conteos: {",":160,";":0,"\\t":0,"|":0}
+[IMPORT MANUAL] Encabezados detectados: ["Nivel","Aula Funcional","Denominaci\u00f3n","Marca","Modelo","Tipo","Color","Serie","Largo","Ancho","Alto","Documento de Alta","Fecha Compra","N\u00b0 Documento","Estado","Procedencia","Observaciones","Usuario Responsable","Ubicaci\u00f3n","Fecha Registro","Cantidad"]
+[IMPORT MANUAL] Delimitador detectado: ',' - Conteos: {",":160,";":0,"\\t":0,"|":0}
+[IMPORT MANUAL] Encabezados detectados: ["Nivel","Aula Funcional","Denominaci\u00f3n","Marca","Modelo","Tipo","Color","Serie","Largo","Ancho","Alto","Documento de Alta","Fecha Compra","N\u00b0 Documento","Estado","Procedencia","Observaciones","Usuario Responsable","Ubicaci\u00f3n","Fecha Registro","Cantidad"]
+Row 1: aula_funcional='Aula 3', nivel='Secundaria', denominacion='PROYECTOR '
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 3","PROYECTOR ","SONY","VIEWSONIC","Equipo","BLANCO","","","","","","","","Regular","Fe y Alegr\u00eda","","PATTY","AULA 03","2025-12-24","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 2: aula_funcional='Aula 3', nivel='Secundaria', denominacion='LAPTOP'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 3","LAPTOP","LENOVO","LENOVO","Equipo","NEGRO","","","","","","","","Regular","UGEL","01 le falta el protector de la lectora de CD","PATTY","AULA 03","2025-12-24","30"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 3: aula_funcional='Aula 3', nivel='Secundaria', denominacion='CARGADOR DE LAPTOP '
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Aula 3","CARGADOR DE LAPTOP ","LENOVO","","Equipo","","","","","","","","","Bueno","UGEL","","PATTY","AULA 03","2025-12-24","30"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+[IMPORT MANUAL] Delimitador detectado: ',' - Conteos: {",":160,";":0,"\\t":0,"|":0}
+[IMPORT MANUAL] Encabezados detectados: ["Nivel","Aula Funcional","Denominaci\u00f3n","Marca","Modelo","Tipo","Color","Serie","Largo","Ancho","Alto","Documento de Alta","Fecha Compra","N\u00b0 Documento","Estado","Procedencia","Observaciones","Usuario Responsable","Ubicaci\u00f3n","Fecha Registro","Cantidad"]
+[IMPORT MANUAL] Delimitador detectado: ',' - Conteos: {",":160,";":0,"\\t":0,"|":0}
+[IMPORT MANUAL] Encabezados detectados: ["Nivel","Aula Funcional","Denominaci\u00f3n","Marca","Modelo","Tipo","Color","Serie","Largo","Ancho","Alto","Documento de Alta","Fecha Compra","N\u00b0 Documento","Estado","Procedencia","Observaciones","Usuario Responsable","Ubicaci\u00f3n","Fecha Registro","Cantidad"]
+Row 1: aula_funcional='Capilla', nivel='Secundaria', denominacion='Silla de madera con espaldar'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Capilla","Silla de madera con espaldar","Madera Per\u00fa","Personal standar","Mobiliario","Nogal cl\u00e1sico","00","0.75","0.52","0.75","00","","00","Bueno","Fe y Alegr\u00eda","Buen estado","Carmen Yanit Condori Mu\u00f1iz","Capilla","2025-12-10","80"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 2: aula_funcional='Capilla', nivel='Secundaria', denominacion='Mesa de madera'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Capilla","Mesa de madera","Madera Per\u00fa","Personal standar","Mobiliario","Nogal cl\u00e1sico","00","0.65","0.47","0.65","00","","00","Bueno","Fe y Alegr\u00eda","Buen estado","Carmen Yanit Condori Mu\u00f1iz","Capilla","2025-12-10","4"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 3: aula_funcional='Capilla', nivel='Secundaria', denominacion='Florero de metal'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Capilla","Florero de metal","metal","00","Material","Plateado","00","0.0","0.0","0.0","00","","00","Bueno","Fe y Alegr\u00eda","Buen estado","Carmen Yanit Condori Mu\u00f1iz","Capilla","2025-12-10","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+[IMPORT MANUAL] Delimitador detectado: ',' - Conteos: {",":160,";":0,"\\t":0,"|":0}
+[IMPORT MANUAL] Encabezados detectados: ["Nivel","Aula Funcional","Denominaci\u00f3n","Marca","Modelo","Tipo","Color","Serie","Largo","Ancho","Alto","Documento de Alta","Fecha Compra","N\u00b0 Documento","Estado","Procedencia","Observaciones","Usuario Responsable","Ubicaci\u00f3n","Fecha Registro","Cantidad"]
+Row 1: aula_funcional='Capilla', nivel='Secundaria', denominacion='Silla de madera con espaldar'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Capilla","Silla de madera con espaldar","Madera Per\u00fa","Personal standar","Mobiliario","Nogal cl\u00e1sico","00","0.75","0.52","0.75","00","","00","Bueno","Fe y Alegr\u00eda","Buen estado","Carmen Yanit Condori Mu\u00f1iz","Capilla","2025-12-10","80"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 2: aula_funcional='Capilla', nivel='Secundaria', denominacion='Mesa de madera'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Capilla","Mesa de madera","Madera Per\u00fa","Personal standar","Mobiliario","Nogal cl\u00e1sico","00","0.65","0.47","0.65","00","","00","Bueno","Fe y Alegr\u00eda","Buen estado","Carmen Yanit Condori Mu\u00f1iz","Capilla","2025-12-10","4"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+
+Row 3: aula_funcional='Capilla', nivel='Secundaria', denominacion='Florero de metal'
+  tmp array keys: nivel, aula_funcional, denominacion, marca, modelo, tipo, color, serie, largo, ancho, alto, documento_de_alta, fecha_compra, n__documento, estado, procedencia, observaciones, usuario_responsable, ubicacion, fecha_registro, cantidad
+  CSV data: ["Secundaria","Capilla","Florero de metal","metal","00","Material","Plateado","00","0.0","0.0","0.0","00","","00","Bueno","Fe y Alegr\u00eda","Buen estado","Carmen Yanit Condori Mu\u00f1iz","Capilla","2025-12-10","1"]
+  Headers: ["nivel","aula_funcional","denominacion","marca","modelo","tipo","color","serie","largo","ancho","alto","documento_de_alta","fecha_compra","n__documento","estado","procedencia","observaciones","usuario_responsable","ubicacion","fecha_registro","cantidad"]
+

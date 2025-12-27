@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test de CSV - Inventario</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background: #f5f5f5; }
+        .container { max-width: 900px; margin: 0 auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        h2 { color: #b71c1c; }
+        .upload-area { padding: 20px; border: 2px dashed #b71c1c; border-radius: 8px; text-align: center; margin: 20px 0; }
+        .btn { padding: 10px 20px; background: #b71c1c; color: white; border: none; border-radius: 6px; cursor: pointer; font-size: 16px; }
+        .btn:hover { background: #d32f2f; }
+        .result { margin-top: 20px; padding: 15px; background: #f0f0f0; border-radius: 6px; }
+        .success { background: #c8e6c9; border-left: 4px solid #4caf50; }
+        .error { background: #ffcdd2; border-left: 4px solid #f44336; }
+        table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; font-size: 13px; }
+        th { background: #b71c1c; color: white; }
+        .highlight { background: #fff9c4; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>🔍 Verificador de CSV para Inventario</h2>
+        <p>Usa esta herramienta para verificar que tu CSV se procesará correctamente antes de importarlo.</p>
+        
+        <div class="upload-area">
+            <input type="file" id="csvFile" accept=".csv" style="display:none">
+            <button class="btn" onclick="document.getElementById('csvFile').click()">Seleccionar Archivo CSV</button>
+            <p id="fileName" style="margin-top: 10px; color: #666;"></p>
+        </div>
+        
+        <div id="results"></div>
+    </div>
+
+    <script>
+        document.getElementById('csvFile').addEventListener('change', function(e) {
+            const file = e.target.files[0];
+            if (!file) return;
+            
+            document.getElementById('fileName').textContent = 'Archivo: ' + file.name;
+            
+            const reader = new FileReader();
+            reader.onload = function(event) {
+                const csvText = event.target.result;
+                analizarCSV(csvText);
+            };
+            reader.readAsText(file);
+        });
+        
+        function analizarCSV(csvText) {
+            const resultsDiv = document.getElementById('results');
+            resultsDiv.innerHTML = '<h3>Analizando...</h3>';
+            
+            // Detectar delimitador
+            const delimitadores = [',', ';', '\t', '|'];
+            const primerasLineas = csvText.split('\n').slice(0, 5);
+            const conteos = {};
+            delimitadores.forEach(d => {
+                conteos[d] = primerasLineas.reduce((sum, line) => sum + (line.match(new RegExp('\\' + d, 'g')) || []).length, 0);
+            });
+            
+            const delimitadorDetectado = Object.keys(conteos).reduce((a, b) => conteos[a] > conteos[b] ? a : b);
+            
+            // Parsear CSV
+            const lineas = csvText.trim().split('\n');
+            const encabezadosRaw = parsearLineaCSV(lineas[0], delimitadorDetectado);
+            
+            // Normalizar encabezados
+            const encabezados = encabezadosRaw.map(h => {
+                let k = h.toLowerCase().trim();
+                k = k.replace(/[áéíóúÁÉÍÓÚñÑ]/g, c => ({
+                    'á':'a','é':'e','í':'i','ó':'o','ú':'u',
+                    'Á':'A','É':'E','Í':'I','Ó':'O','Ú':'U','ñ':'n','Ñ':'N'
+                }[c] || c));
+                k = k.replace(/[^a-z0-9_]/g, '_');
+                if (k === 'aula') k = 'aula_funcional';
+                if (k === 'denominacion' || k === 'denominaci_n') k = 'denominacion';
+                return k;
+            });
+            
+            // Leer primeras 5 filas de datos
+            const filas = [];
+            for (let i = 1; i < Math.min(6, lineas.length); i++) {
+                const valores = parsearLineaCSV(lineas[i], delimitadorDetectado);
+                const fila = {};
+                encabezados.forEach((header, idx) => {
+                    fila[header] = valores[idx] || '';
+                });
+                filas.push(fila);
+            }
+            
+            // Validar encabezados requeridos
+            const requeridos = ['nivel', 'aula_funcional', 'denominacion'];
+            const faltantes = requeridos.filter(r => !encabezados.includes(r));
+            
+            // Generar reporte
+            let html = '<div class="result ' + (faltantes.length === 0 ? 'success' : 'error') + '">';
+            
+            html += '<h3>📋 Información del CSV</h3>';
+            html += '<p><strong>Delimitador detectado:</strong> ' + (delimitadorDetectado === ',' ? 'Coma (,)' : delimitadorDetectado) + '</p>';
+            html += '<p><strong>Total de columnas:</strong> ' + encabezados.length + '</p>';
+            html += '<p><strong>Total de filas de datos:</strong> ' + (lineas.length - 1) + '</p>';
+            
+            if (faltantes.length > 0) {
+                html += '<p style="color: #c62828;"><strong>❌ Faltan columnas requeridas:</strong> ' + faltantes.join(', ') + '</p>';
+            } else {
+                html += '<p style="color: #2e7d32;"><strong>✅ Todas las columnas requeridas están presentes</strong></p>';
+            }
+            
+            html += '<h4>Encabezados normalizados:</h4>';
+            html += '<p style="font-size: 12px; background: #fff; padding: 10px; border-radius: 4px;">' + encabezados.join(', ') + '</p>';
+            
+            // Mostrar valores de aula_funcional
+            const aulasDetectadas = [...new Set(filas.map(f => f.aula_funcional).filter(a => a))];
+            html += '<h4>Aulas detectadas en las primeras filas:</h4>';
+            if (aulasDetectadas.length > 0) {
+                html += '<p class="highlight">📍 ' + aulasDetectadas.join(', ') + '</p>';
+            } else {
+                html += '<p style="color: #f57c00;">⚠️ No se detectaron valores en aula_funcional</p>';
+            }
+            
+            html += '<h4>Muestra de las primeras filas:</h4>';
+            html += '<div style="overflow-x: auto;"><table>';
+            html += '<tr><th>#</th>';
+            ['nivel', 'aula_funcional', 'denominacion', 'cantidad', 'marca', 'estado'].forEach(col => {
+                if (encabezados.includes(col)) {
+                    html += '<th>' + col + '</th>';
+                }
+            });
+            html += '</tr>';
+            
+            filas.forEach((fila, idx) => {
+                html += '<tr><td>' + (idx + 1) + '</td>';
+                ['nivel', 'aula_funcional', 'denominacion', 'cantidad', 'marca', 'estado'].forEach(col => {
+                    if (encabezados.includes(col)) {
+                        const valor = fila[col] || '';
+                        const isAula = col === 'aula_funcional';
+                        html += '<td' + (isAula ? ' class="highlight"' : '') + '>' + valor + '</td>';
+                    }
+                });
+                html += '</tr>';
+            });
+            
+            html += '</table></div>';
+            
+            if (faltantes.length === 0 && aulasDetectadas.length > 0) {
+                html += '<div style="margin-top: 20px; padding: 15px; background: #e8f5e9; border-radius: 6px;">';
+                html += '<p style="color: #2e7d32; font-weight: bold;">✅ El archivo CSV está listo para importar</p>';
+                html += '<p>Las aulas <strong>' + aulasDetectadas.join(', ') + '</strong> se importarán correctamente.</p>';
+                html += '</div>';
+            }
+            
+            html += '</div>';
+            resultsDiv.innerHTML = html;
+        }
+        
+        function parsearLineaCSV(linea, delim) {
+            const resultado = [];
+            let enComillas = false;
+            let valorActual = '';
+            
+            for (let i = 0; i < linea.length; i++) {
+                const char = linea[i];
+                
+                if (char === '"') {
+                    if (enComillas && linea[i + 1] === '"') {
+                        valorActual += '"';
+                        i++;
+                    } else {
+                        enComillas = !enComillas;
+                    }
+                } else if (char === delim && !enComillas) {
+                    resultado.push(valorActual);
+                    valorActual = '';
+                } else {
+                    valorActual += char;
+                }
+            }
+            resultado.push(valorActual);
+            return resultado;
+        }
+    </script>
+</body>
+</html>
